@@ -45,8 +45,8 @@ p {
 }
 
 a {
-	color: var(--primary-text-color);
 	text-decoration: none;
+	color: var(--primary-text-color);
 }
 
 a:hover {
