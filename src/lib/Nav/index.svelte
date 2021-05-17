@@ -1,6 +1,6 @@
-<script>
+<script lang="ts">
 	import NavItem from './nav_item.svelte';
-	const pages = ['work', 'about', 'contact', 'shows'];
+	const pages: string[] = ['work', 'about', 'contact', 'shows'];
 </script>
 
 <nav>

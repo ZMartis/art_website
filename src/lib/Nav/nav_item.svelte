@@ -12,10 +12,10 @@
 		margin-right: 20px;
 		letter-spacing: 0.1rem;
 	}
-	a.active {
-		text-decoration: underline var(--primary-color) 0.2rem;
-	}
 	a:hover {
 		text-decoration-color: var(--primary-color);
+	}
+	.active {
+		text-decoration: underline var(--primary-color) 0.2rem;
 	}
 </style>

@@ -5,7 +5,6 @@
 <header>
 	<img src="z_logo.svg" alt="Z Logo" />
 	<a href="/"><h1>ZACH MARTIS</h1></a>
-
 	<Nav />
 </header>
 
