@@ -1,5 +1,5 @@
 <script lang="ts">
-	import NavItem from './nav_item.svelte';
+	import NavItem from '$lib/Header/nav_item.svelte';
 	const pages: string[] = ['work', 'about', 'contact', 'shows'];
 
 	export let navVisible = false;

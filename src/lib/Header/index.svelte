@@ -1,6 +1,6 @@
 <script lang="ts">
-	import Nav from '$lib/Nav/index.svelte';
-	import MenuButton from '$lib/Nav/menu_button.svelte';
+	import Nav from '$lib/Header/nav.svelte';
+	import MenuButton from '$lib/Header/menu_button.svelte';
 
 	let navVisible = false;
 	function toggleNav() {
