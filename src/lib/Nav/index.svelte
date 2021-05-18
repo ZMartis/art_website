@@ -15,6 +15,7 @@
 	nav {
 		display: none;
 		flex-direction: column;
+		width: 100%;
 	}
 	.activeNav {
 		display: flex;
@@ -23,6 +24,7 @@
 		nav {
 			display: flex;
 			flex-direction: row;
+			width: unset;
 		}
 	}
 	@media (min-width: 1366px) {

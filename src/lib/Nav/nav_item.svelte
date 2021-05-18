@@ -9,7 +9,8 @@
 
 <style>
 	a {
-		margin-right: 20px;
+		width: 100%;
+		text-align: center;
 		letter-spacing: 0.1rem;
 	}
 	a:hover {
@@ -17,5 +18,15 @@
 	}
 	.active {
 		text-decoration: underline var(--primary-color) 0.2rem;
+	}
+	@media (min-width: 768px) {
+		a {
+			width: unset;
+			margin-right: 20px;
+			text-align: left;
+		}
+	}
+
+	@media (min-width: 1366px) {
 	}
 </style>
