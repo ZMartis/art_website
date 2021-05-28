@@ -6,6 +6,7 @@
 	box-sizing: border-box;
 	--font-mono: 'Fira Mono', monospace;
 	--white: #ffffff;
+	--grey: #aaa;
 	--black: #000000;
 	--primary-text-color: #000000;
 	--placeholder-text-color: #999999;
@@ -14,6 +15,8 @@
 	--tertiary-color: #e7edff;
 	--accent-color: #00ff89;
 	--error-color: #a3211c;
+	--hover-menu-indicator-size: 0.05rem;
+	--active-menu-indicator-size: 0.12rem;
 }
 
 html,
@@ -49,10 +52,6 @@ a {
 	color: var(--primary-text-color);
 }
 
-a:hover {
-	text-decoration: underline;
-}
-
 h1 {
 	font-size: 2rem;
 	margin-bottom: 0 0 1em 0;
@@ -61,6 +60,11 @@ h1 {
 
 h2 {
 	font-size: 1rem;
+}
+
+h3 {
+	letter-spacing: 0.1rem;
+	line-height: 1.2rem;
 }
 
 pre {
@@ -84,8 +88,8 @@ button:focus:not(:focus-visible) {
 	outline: none;
 }
 
-@media (min-width: 720px) {
+@media (min-width: 768px) {
 	h1 {
-		font-size: 2.4rem;
+		font-size: 1.4rem;
 	}
 }
