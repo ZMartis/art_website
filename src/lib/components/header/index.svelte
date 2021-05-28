@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/stores';
-	import Nav from '$lib/components/Header/nav.svelte';
-	import MenuButton from '$lib/components/Header/menu_button.svelte';
+	import Nav from '$lib/components/header/nav.svelte';
+	import MenuButton from '$lib/components/header/menu_button.svelte';
 	import greenLogo from '$lib/images/z_logo_green.svg';
 	import blackLogo from '$lib/images/z_logo_black.svg';
 
