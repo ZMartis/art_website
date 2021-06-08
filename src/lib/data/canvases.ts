@@ -6,7 +6,7 @@ export const canvases: Artwork[] = [
 		number: 1,
 		title: 'Hydrogen',
 		subTitle: 'Feathers in a Sunset',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/1.+Hydrogen+(Feathers+in+a+Sunset).jpg',
 		medium: 'canvas',
 		price: '$300',
@@ -18,7 +18,7 @@ export const canvases: Artwork[] = [
 		number: 3,
 		title: 'Lithium',
 		subTitle: 'Fractured Glacier',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/3.+Lithium+(Fractured+Glacier).jpg',
 		medium: 'canvas',
 		price: '$600',
@@ -30,7 +30,7 @@ export const canvases: Artwork[] = [
 		number: 8,
 		title: 'Oxygen',
 		subTitle: 'Cove',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/8.+Oxygen+(Cove).jpg',
 		medium: 'canvas',
 		price: '$600',
@@ -42,7 +42,7 @@ export const canvases: Artwork[] = [
 		number: 10,
 		title: 'Neon',
 		subTitle: 'Jetty',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/10.+Neon+(Jetty).jpg',
 		medium: 'canvas',
 		price: '$600',
@@ -54,7 +54,7 @@ export const canvases: Artwork[] = [
 		number: 14,
 		title: 'Silicon',
 		subTitle: 'Drifting Sands',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/14.+Silicon+(Drifting+Sands).jpg',
 		medium: 'canvas',
 		price: '$800',
@@ -66,7 +66,7 @@ export const canvases: Artwork[] = [
 		number: 17,
 		title: 'Chlorine',
 		subTitle: 'Beach',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/17.+Chlorine+(Beach).jpg',
 		medium: 'canvas',
 		price: '$400',
@@ -78,7 +78,7 @@ export const canvases: Artwork[] = [
 		number: 18,
 		title: 'Argon',
 		subTitle: 'Falls',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/18.+Argon+(Falls).jpg',
 		medium: 'canvas',
 		price: '$500',
@@ -90,7 +90,7 @@ export const canvases: Artwork[] = [
 		number: 19,
 		title: 'Potassium',
 		subTitle: 'Fading Memory',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/19.+Potassium+(Fading+Memory).jpg',
 		medium: 'canvas',
 		price: '$500',
@@ -102,7 +102,7 @@ export const canvases: Artwork[] = [
 		number: 20,
 		title: 'Calcium',
 		subTitle: 'Sun Rising',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/20.Calcium+(Sun+Rising).jpg',
 		medium: 'canvas',
 		price: '$500',
@@ -114,7 +114,7 @@ export const canvases: Artwork[] = [
 		number: 22,
 		title: 'Titanium',
 		subTitle: 'Misty Desert',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/22.+Titanium+(Misty+Desert).jpg',
 		medium: 'canvas',
 		price: '$600',
@@ -126,7 +126,7 @@ export const canvases: Artwork[] = [
 		number: 26,
 		title: 'Iron',
 		subTitle: 'Warm Spring',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/26.+Iron+(Warm+Spring).jpg',
 		medium: 'canvas',
 		price: '$600',
@@ -138,7 +138,7 @@ export const canvases: Artwork[] = [
 		number: 27,
 		title: 'Cobalt',
 		subTitle: 'Ocean',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/27.+Cobalt+(Ocean).jpg',
 		medium: 'canvas',
 		price: '$300',
@@ -150,7 +150,7 @@ export const canvases: Artwork[] = [
 		number: 33,
 		title: 'Arsenic',
 		subTitle: 'Sail',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/33.+Arsenic+(Sail).jpg',
 		medium: 'canvas',
 		price: '$600',
@@ -162,7 +162,7 @@ export const canvases: Artwork[] = [
 		number: 52,
 		title: 'Tellurium',
 		subTitle: 'Ascension',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/52.+Tellurium+(Ascension).jpg',
 		medium: 'canvas',
 		price: '$800',
@@ -174,7 +174,7 @@ export const canvases: Artwork[] = [
 		number: 53,
 		title: 'Iodine',
 		subTitle: 'Drowning',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/53.+Iodine+(Drowning).jpg',
 		medium: 'canvas',
 		price: '$800',
@@ -186,7 +186,7 @@ export const canvases: Artwork[] = [
 		number: 56,
 		title: 'Barium',
 		subTitle: 'Polluted Overflow',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/56.+Barium+(Polluted+Overflow).jpg',
 		medium: 'canvas',
 		price: '$600',
@@ -198,7 +198,7 @@ export const canvases: Artwork[] = [
 		number: 62,
 		title: 'Samarium',
 		subTitle: 'Lost in the Sea',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/62.+Samarium+(Lost+in+the+Sea).jpg',
 		medium: 'canvas',
 		price: '$600',
@@ -210,7 +210,7 @@ export const canvases: Artwork[] = [
 		number: 69,
 		title: 'Thulium',
 		subTitle: 'Falling Water',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/69.+Thulium+(Falling+Water).jpg',
 		medium: 'canvas',
 		price: '$600',
@@ -222,7 +222,7 @@ export const canvases: Artwork[] = [
 		number: 70,
 		title: 'Ytterbium',
 		subTitle: 'Desert',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/70.+Ytterbium+(Desert).jpg',
 		medium: 'canvas',
 		price: '$300',
@@ -234,7 +234,7 @@ export const canvases: Artwork[] = [
 		number: 72,
 		title: 'Hafnium',
 		subTitle: 'Connection',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/72.+Hafnium+(Connection).jpg',
 		medium: 'canvas',
 		price: '$200',
@@ -246,7 +246,7 @@ export const canvases: Artwork[] = [
 		number: 76,
 		title: 'Osmium',
 		subTitle: 'Cloudy Pond',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/76.+Osmium+(Cloudy+Pond)+.jpg',
 		medium: 'canvas',
 		price: '$200',
@@ -258,7 +258,7 @@ export const canvases: Artwork[] = [
 		number: 77,
 		title: 'Iridium',
 		subTitle: 'Warm Dive',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/77.+Iridium+(Warm+Dive).jpg',
 		medium: 'canvas',
 		price: '$800',
@@ -270,7 +270,7 @@ export const canvases: Artwork[] = [
 		number: 79,
 		title: 'Gold',
 		subTitle: 'Faces',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/79.+Gold+(Faces).jpg',
 		medium: 'canvas',
 		price: '$800',
@@ -282,7 +282,7 @@ export const canvases: Artwork[] = [
 		number: 80,
 		title: 'Mercury',
 		subTitle: 'Woman',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/80.+Mercury+(Woman).jpg',
 		medium: 'canvas',
 		price: '$150',
@@ -294,7 +294,7 @@ export const canvases: Artwork[] = [
 		number: 83,
 		title: 'Bismuth',
 		subTitle: 'Conflict',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/83.+Bismuth+(conflict).jpg',
 		medium: 'canvas',
 		price: '$500',
@@ -306,7 +306,7 @@ export const canvases: Artwork[] = [
 		number: 87,
 		title: 'Francium',
 		subTitle: 'Wasted Bar',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/87.+Francium+(Wasted+Bar).jpg',
 		medium: 'canvas',
 		price: '$400',
@@ -318,7 +318,7 @@ export const canvases: Artwork[] = [
 		number: 88,
 		title: 'Radium',
 		subTitle: 'Seclusion',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/88.+Radium+(Seclusion).jpg',
 		medium: 'canvas',
 		price: '$1000',
@@ -330,7 +330,7 @@ export const canvases: Artwork[] = [
 		number: 93,
 		title: 'Neptunium',
 		subTitle: 'Acid Drip',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/93.+Neptunium+(Acid+Drip).jpg',
 		medium: 'canvas',
 		price: '$400',
@@ -342,7 +342,7 @@ export const canvases: Artwork[] = [
 		number: 96,
 		title: 'Curium',
 		subTitle: 'Sand Bar',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/96.+Curium+(Sand+Bar).jpg',
 		medium: 'canvas',
 		price: '$500',
@@ -354,7 +354,7 @@ export const canvases: Artwork[] = [
 		number: 100,
 		title: 'Fermium',
 		subTitle: 'Volcanic Spring',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/100.+Fermium+(Volcanic_Spring).jpg',
 		medium: 'canvas',
 		price: '$500',
@@ -366,7 +366,7 @@ export const canvases: Artwork[] = [
 		number: 105,
 		title: 'Dubnium',
 		subTitle: 'Travels',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/105.+Dubnium+(Travels).jpg',
 		medium: 'canvas',
 		price: '$200',
@@ -378,7 +378,7 @@ export const canvases: Artwork[] = [
 		number: 106,
 		title: 'Seaborgium',
 		subTitle: 'Capsized',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/106.+Seaborgium+(Capsized).jpg',
 		medium: 'canvas',
 		price: '$600',
@@ -390,7 +390,7 @@ export const canvases: Artwork[] = [
 		number: 107,
 		title: 'Bohrium',
 		subTitle: 'Heat Wave',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/107.+Bohrium+(Heat+Wave).jpg',
 		medium: 'canvas',
 		price: '$800',
@@ -402,7 +402,7 @@ export const canvases: Artwork[] = [
 		number: 108,
 		title: 'Hassium',
 		subTitle: 'Sun Inlet',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/108.+Hassium+(Sun+Inlet).jpg',
 		medium: 'canvas',
 		price: '$300',

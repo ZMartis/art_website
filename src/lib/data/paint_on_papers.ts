@@ -3,7 +3,7 @@ export const paintOnPapers: Artwork[] = [
 	{
 		id: '0',
 		title: 'March Hare',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/March+Hare.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
@@ -13,7 +13,7 @@ export const paintOnPapers: Artwork[] = [
 	{
 		id: '1',
 		title: 'Elements',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Elements.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
@@ -23,7 +23,7 @@ export const paintOnPapers: Artwork[] = [
 	{
 		id: '2',
 		title: 'Splash',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Splash.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
@@ -33,7 +33,7 @@ export const paintOnPapers: Artwork[] = [
 	{
 		id: '3',
 		title: 'Obscured',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Obscured.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
@@ -43,7 +43,7 @@ export const paintOnPapers: Artwork[] = [
 	{
 		id: '4',
 		title: 'Basque',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Basque.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
@@ -53,7 +53,7 @@ export const paintOnPapers: Artwork[] = [
 	{
 		id: '5',
 		title: 'Sandhill',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Sandhill.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
@@ -63,7 +63,7 @@ export const paintOnPapers: Artwork[] = [
 	{
 		id: '6',
 		title: 'Tea',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Tea.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
@@ -73,7 +73,7 @@ export const paintOnPapers: Artwork[] = [
 	{
 		id: '7',
 		title: 'Calamity',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Calamity.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
@@ -83,7 +83,7 @@ export const paintOnPapers: Artwork[] = [
 	{
 		id: '8',
 		title: 'Feed',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Feed.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
@@ -93,7 +93,7 @@ export const paintOnPapers: Artwork[] = [
 	{
 		id: '9',
 		title: 'Flux',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Flux.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
@@ -103,7 +103,7 @@ export const paintOnPapers: Artwork[] = [
 	{
 		id: '10',
 		title: 'Foliage',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Foliage.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
@@ -113,7 +113,7 @@ export const paintOnPapers: Artwork[] = [
 	{
 		id: '11',
 		title: 'Volcanic Lake',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Volcanic+Lake.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
@@ -123,7 +123,7 @@ export const paintOnPapers: Artwork[] = [
 	{
 		id: '12',
 		title: "Day's End",
-		url:
+		image:
 			"https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Day's+End.webp",
 		medium: 'paintOnPaper',
 		price: '$200',
@@ -133,7 +133,7 @@ export const paintOnPapers: Artwork[] = [
 	{
 		id: '13',
 		title: 'Wave',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Wave.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
@@ -143,7 +143,7 @@ export const paintOnPapers: Artwork[] = [
 	{
 		id: '14',
 		title: 'Slipstream',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Slipstream.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
@@ -153,7 +153,7 @@ export const paintOnPapers: Artwork[] = [
 	{
 		id: '15',
 		title: 'Consume',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Consume.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
@@ -163,7 +163,7 @@ export const paintOnPapers: Artwork[] = [
 	{
 		id: '16',
 		title: 'Security',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Security.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
@@ -173,7 +173,7 @@ export const paintOnPapers: Artwork[] = [
 	{
 		id: '17',
 		title: 'Whisper',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Whisper.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
@@ -183,7 +183,7 @@ export const paintOnPapers: Artwork[] = [
 	{
 		id: '18',
 		title: 'Companion',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Companion.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
@@ -193,7 +193,7 @@ export const paintOnPapers: Artwork[] = [
 	{
 		id: '19',
 		title: 'Airavata',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Airavata.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
@@ -203,7 +203,7 @@ export const paintOnPapers: Artwork[] = [
 	{
 		id: '20',
 		title: 'Voyager',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Voyager.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
@@ -213,7 +213,7 @@ export const paintOnPapers: Artwork[] = [
 	{
 		id: '21',
 		title: 'Emerge',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Emerge.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
@@ -223,7 +223,7 @@ export const paintOnPapers: Artwork[] = [
 	{
 		id: '22',
 		title: 'Angler',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Angler.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
@@ -233,7 +233,7 @@ export const paintOnPapers: Artwork[] = [
 	{
 		id: '23',
 		title: 'Birth of Fire',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Birth+of+Fire.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
@@ -243,7 +243,7 @@ export const paintOnPapers: Artwork[] = [
 	{
 		id: '24',
 		title: 'Self-Portrait',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Self-Portrait.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
@@ -253,7 +253,7 @@ export const paintOnPapers: Artwork[] = [
 	{
 		id: '25',
 		title: 'Lightning Bug',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Lightning+Bug.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
@@ -263,7 +263,7 @@ export const paintOnPapers: Artwork[] = [
 	{
 		id: '26',
 		title: 'Trust',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Trust.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
@@ -273,7 +273,7 @@ export const paintOnPapers: Artwork[] = [
 	{
 		id: '27',
 		title: 'Banshee',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Banshee.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
@@ -283,7 +283,7 @@ export const paintOnPapers: Artwork[] = [
 	{
 		id: '28',
 		title: 'Dragonfly',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Dragonfly.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
@@ -293,7 +293,7 @@ export const paintOnPapers: Artwork[] = [
 	{
 		id: '29',
 		title: 'Steps',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Steps.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
@@ -303,7 +303,7 @@ export const paintOnPapers: Artwork[] = [
 	{
 		id: '30',
 		title: 'Atlas',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Atlas.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
@@ -313,7 +313,7 @@ export const paintOnPapers: Artwork[] = [
 	{
 		id: '31',
 		title: 'Entangled',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Entangled.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
@@ -323,7 +323,7 @@ export const paintOnPapers: Artwork[] = [
 	{
 		id: '32',
 		title: 'Birth',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Birth.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
@@ -333,7 +333,7 @@ export const paintOnPapers: Artwork[] = [
 	{
 		id: '33',
 		title: 'Falling Pond',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Falling+Pond.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
@@ -343,7 +343,7 @@ export const paintOnPapers: Artwork[] = [
 	{
 		id: '34',
 		title: 'Quench',
-		url:
+		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Quench.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
