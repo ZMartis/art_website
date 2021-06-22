@@ -5,26 +5,32 @@ export const paintOnPapers: Artwork[] = [
 		title: 'March Hare',
 		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/March+Hare.webp',
+		smallImage: 
+			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Acrylic+on+Paper/March+Hare.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
 		description: '',
 		sold: false
-	},
+	}, 
 	{
 		id: '1',
 		title: 'Elements',
 		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Elements.webp',
+		smallImage: 
+			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Acrylic+on+Paper/Elements.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
 		description: '',
-		sold: false
+		sold: false 
 	},
 	{
 		id: '2',
 		title: 'Splash',
 		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Splash.webp',
+		smallImage: 			
+			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Acrylic+on+Paper/Splash.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
 		description: '',
