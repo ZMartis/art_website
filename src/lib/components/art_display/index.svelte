@@ -16,7 +16,7 @@
 		display: grid;
 		justify-items: center;
 		grid-template-columns: repeat(2, 1fr);
-		grid-gap: 1rem;
+		grid-gap: 1.5rem 1rem;
 		margin: 1rem;
 	}
 	@media (min-width: 768px) {
