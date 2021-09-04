@@ -24,6 +24,17 @@ html * {
 	box-sizing: border-box;
 }
 
+/* Hide scrollbar for Chrome, Safari and Opera */
+::-webkit-scrollbar {
+	display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+html {
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+
 body {
 	min-height: 100vh;
 	margin: 0;
@@ -44,7 +55,8 @@ p {
 }
 
 p {
-	line-height: 1.5;
+	line-height: 1.4;
+	font-family: 'Roboto';
 }
 
 a {
