@@ -5,31 +5,31 @@ export const paintOnPapers: Artwork[] = [
 		title: 'March Hare',
 		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/March+Hare.webp',
-		smallImage: 
+		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Acrylic+on+Paper/March+Hare.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
 		description: '',
 		sold: false
-	}, 
+	},
 	{
 		id: '1',
 		title: 'Elements',
 		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Elements.webp',
-		smallImage: 
+		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Acrylic+on+Paper/Elements.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
 		description: '',
-		sold: false 
+		sold: false
 	},
 	{
 		id: '2',
 		title: 'Splash',
 		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Splash.webp',
-		smallImage: 			
+		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Acrylic+on+Paper/Splash.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
@@ -41,6 +41,8 @@ export const paintOnPapers: Artwork[] = [
 		title: 'Obscured',
 		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Obscured.webp',
+		smallImage:
+			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Acrylic+on+Paper/Obscured.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
 		description: '',
@@ -51,6 +53,8 @@ export const paintOnPapers: Artwork[] = [
 		title: 'Basque',
 		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Basque.webp',
+		smallImage:
+			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Acrylic+on+Paper/Basque.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
 		description: '',
@@ -61,6 +65,8 @@ export const paintOnPapers: Artwork[] = [
 		title: 'Sandhill',
 		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Sandhill.webp',
+		smallImage:
+			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Acrylic+on+Paper/Sandhill.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
 		description: '',
@@ -71,6 +77,8 @@ export const paintOnPapers: Artwork[] = [
 		title: 'Tea',
 		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Tea.webp',
+		smallImage:
+			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Acrylic+on+Paper/Tea.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
 		description: '',
@@ -81,6 +89,8 @@ export const paintOnPapers: Artwork[] = [
 		title: 'Calamity',
 		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Calamity.webp',
+		smallImage:
+			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Acrylic+on+Paper/Calamity.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
 		description: '',
@@ -91,6 +101,8 @@ export const paintOnPapers: Artwork[] = [
 		title: 'Feed',
 		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Feed.webp',
+		smallImage:
+			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Acrylic+on+Paper/Feed.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
 		description: '',
@@ -101,6 +113,8 @@ export const paintOnPapers: Artwork[] = [
 		title: 'Flux',
 		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Flux.webp',
+		smallImage:
+			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Acrylic+on+Paper/Flux.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
 		description: '',
@@ -111,6 +125,8 @@ export const paintOnPapers: Artwork[] = [
 		title: 'Foliage',
 		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Foliage.webp',
+		smallImage:
+			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Acrylic+on+Paper/Foliage.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
 		description: '',
@@ -121,6 +137,8 @@ export const paintOnPapers: Artwork[] = [
 		title: 'Volcanic Lake',
 		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Volcanic+Lake.webp',
+		smallImage:
+			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Acrylic+on+Paper/Volcanic+Lake.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
 		description: '',
@@ -131,6 +149,8 @@ export const paintOnPapers: Artwork[] = [
 		title: "Day's End",
 		image:
 			"https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Day's+End.webp",
+		smallImage:
+			"https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Acrylic+on+Paper/Day's+End.webp",
 		medium: 'paintOnPaper',
 		price: '$200',
 		description: '',
@@ -141,6 +161,8 @@ export const paintOnPapers: Artwork[] = [
 		title: 'Wave',
 		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Wave.webp',
+		smallImage:
+			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Acrylic+on+Paper/Wave.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
 		description: '',
@@ -151,6 +173,8 @@ export const paintOnPapers: Artwork[] = [
 		title: 'Slipstream',
 		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Slipstream.webp',
+		smallImage:
+			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Acrylic+on+Paper/Slipstream.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
 		description: '',
@@ -161,6 +185,8 @@ export const paintOnPapers: Artwork[] = [
 		title: 'Consume',
 		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Consume.webp',
+		smallImage:
+			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Acrylic+on+Paper/Consume.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
 		description: '',
@@ -171,6 +197,8 @@ export const paintOnPapers: Artwork[] = [
 		title: 'Security',
 		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Security.webp',
+		smallImage:
+			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Acrylic+on+Paper/Security.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
 		description: '',
@@ -181,6 +209,8 @@ export const paintOnPapers: Artwork[] = [
 		title: 'Whisper',
 		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Whisper.webp',
+		smallImage:
+			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Acrylic+on+Paper/Whisper.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
 		description: '',
@@ -191,6 +221,8 @@ export const paintOnPapers: Artwork[] = [
 		title: 'Companion',
 		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Companion.webp',
+		smallImage:
+			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Acrylic+on+Paper/Companion.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
 		description: '',
@@ -201,6 +233,8 @@ export const paintOnPapers: Artwork[] = [
 		title: 'Airavata',
 		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Airavata.webp',
+		smallImage:
+			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Acrylic+on+Paper/Airavata.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
 		description: '',
@@ -211,6 +245,8 @@ export const paintOnPapers: Artwork[] = [
 		title: 'Voyager',
 		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Voyager.webp',
+		smallImage:
+			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Acrylic+on+Paper/Voyager.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
 		description: '',
@@ -221,6 +257,8 @@ export const paintOnPapers: Artwork[] = [
 		title: 'Emerge',
 		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Emerge.webp',
+		smallImage:
+			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Acrylic+on+Paper/Emerge.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
 		description: '',
@@ -231,6 +269,8 @@ export const paintOnPapers: Artwork[] = [
 		title: 'Angler',
 		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Angler.webp',
+		smallImage:
+			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Acrylic+on+Paper/Angler.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
 		description: '',
@@ -241,6 +281,8 @@ export const paintOnPapers: Artwork[] = [
 		title: 'Birth of Fire',
 		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Birth+of+Fire.webp',
+		smallImage:
+			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Acrylic+on+Paper/Birth+of+Fire.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
 		description: '',
@@ -251,6 +293,8 @@ export const paintOnPapers: Artwork[] = [
 		title: 'Self-Portrait',
 		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Self-Portrait.webp',
+		smallImage:
+			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Acrylic+on+Paper/Self-Portrait.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
 		description: '',
@@ -261,6 +305,8 @@ export const paintOnPapers: Artwork[] = [
 		title: 'Lightning Bug',
 		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Lightning+Bug.webp',
+		smallImage:
+			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Acrylic+on+Paper/Lightning+Bug.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
 		description: '',
@@ -271,6 +317,8 @@ export const paintOnPapers: Artwork[] = [
 		title: 'Trust',
 		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Trust.webp',
+		smallImage:
+			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Acrylic+on+Paper/Trust.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
 		description: '',
@@ -281,6 +329,8 @@ export const paintOnPapers: Artwork[] = [
 		title: 'Banshee',
 		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Banshee.webp',
+		smallImage:
+			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Acrylic+on+Paper/Banshee.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
 		description: '',
@@ -291,6 +341,8 @@ export const paintOnPapers: Artwork[] = [
 		title: 'Dragonfly',
 		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Dragonfly.webp',
+		smallImage:
+			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Acrylic+on+Paper/Dragonfly.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
 		description: '',
@@ -301,6 +353,8 @@ export const paintOnPapers: Artwork[] = [
 		title: 'Steps',
 		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Steps.webp',
+		smallImage:
+			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Acrylic+on+Paper/Steps.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
 		description: '',
@@ -311,6 +365,8 @@ export const paintOnPapers: Artwork[] = [
 		title: 'Atlas',
 		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Atlas.webp',
+		smallImage:
+			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Acrylic+on+Paper/Atlas.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
 		description: '',
@@ -321,6 +377,8 @@ export const paintOnPapers: Artwork[] = [
 		title: 'Entangled',
 		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Entangled.webp',
+		smallImage:
+			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Acrylic+on+Paper/Entangled.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
 		description: '',
@@ -331,6 +389,8 @@ export const paintOnPapers: Artwork[] = [
 		title: 'Birth',
 		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Birth.webp',
+		smallImage:
+			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Acrylic+on+Paper/Birth.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
 		description: '',
@@ -341,6 +401,8 @@ export const paintOnPapers: Artwork[] = [
 		title: 'Falling Pond',
 		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Falling+Pond.webp',
+		smallImage:
+			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Acrylic+on+Paper/Falling+Pond.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
 		description: '',
@@ -351,6 +413,8 @@ export const paintOnPapers: Artwork[] = [
 		title: 'Quench',
 		image:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Acrylic+on+Paper/Quench.webp',
+		smallImage:
+			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Acrylic+on+Paper/Quench.webp',
 		medium: 'paintOnPaper',
 		price: '$200',
 		description: '',
