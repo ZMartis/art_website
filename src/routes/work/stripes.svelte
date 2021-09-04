@@ -1,14 +1,6 @@
 <script lang="ts">
-	// your script goes here
+	import ArtDisplay from '$lib/components/art_display/index.svelte';
+	import { stripes } from '$lib/data/stripes';
 </script>
 
-<!-- markup (zero or more items) goes here -->
-<style>
-	/* your mobile styles go here */
-	@media (min-width: 768px) {
-		/* your tablet styles go here */
-	}
-	@media (min-width: 1366px) {
-		/* your desktop styles go here */
-	}
-</style>
+<ArtDisplay artworks={stripes} />

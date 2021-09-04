@@ -2,12 +2,13 @@
 	import type { Artwork } from 'src/types/artwork';
 
 	export let artwork: Artwork;
+	$: image = artwork.smallImage ? artwork.smallImage : artwork.image;
 	$: imageAlt = artwork.title + ' (' + artwork.subTitle + ')';
 </script>
 
 <div class="listingContainer">
 	<div class="imgContainer">
-		<img src={artwork.url} alt={imageAlt} />
+		<img src={image} alt={imageAlt} />
 	</div>
 	<h3>
 		{#if artwork.number}{artwork.number}. {/if}{artwork.title}

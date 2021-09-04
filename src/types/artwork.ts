@@ -3,7 +3,8 @@ export interface Artwork {
 	number?: number;
 	title: string;
 	subTitle?: string;
-	url: string;
+	image: string;
+	smallImage?: string;
 	medium: 'canvas' | 'paintOnPaper' | 'macro' | 'pixelSort' | 'stripes';
 	price: string;
 	description: string;
