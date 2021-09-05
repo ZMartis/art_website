@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/stores';
-	import { capitalize, includes } from 'lodash';
+	import { capitalize, includes } from 'lodash-es';
 	export let link: string;
 	const display = capitalize(link);
 	export let toggleNav: Function;

@@ -5,7 +5,7 @@
 	import { paintOnPapers } from '$lib/data/paint_on_papers';
 	import { pixelSorts } from '$lib/data/pixel_sorts';
 	import { stripes } from '$lib/data/stripes';
-	import { capitalize, find, union } from 'lodash';
+	import { capitalize, find, union } from 'lodash-es';
 	import Title from '$lib/components/title/index.svelte';
 
 	const allArtwork = union(

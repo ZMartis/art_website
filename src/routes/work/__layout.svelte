@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 
-	import { includes } from 'lodash';
+	import { includes } from 'lodash-es';
 </script>
 
 <div>

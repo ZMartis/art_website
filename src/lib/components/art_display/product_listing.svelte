@@ -3,7 +3,7 @@
 	import { fade } from 'svelte/transition';
 	import Title from '$lib/components/title/index.svelte';
 	import { goto } from '$app/navigation';
-	import { lowerCase } from 'lodash';
+	import { lowerCase } from 'lodash-es';
 
 	export let artwork: Artwork;
 
