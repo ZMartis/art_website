@@ -1,11 +1,14 @@
 <script lang="ts">
 	import type { Artwork } from 'src/types/artwork';
 	import { fade } from 'svelte/transition';
+	import Title from '$lib/components/title/index.svelte';
 
 	export let artwork: Artwork;
 
 	$: image = artwork.smallImage ? artwork.smallImage : artwork.image;
-	$: imageAlt = artwork.title + ' (' + artwork.subTitle + ')';
+	$: imageAlt = artwork.subTitle
+		? artwork.title + ' (' + artwork.subTitle + ')'
+		: artwork.title;
 
 	let overlayActive = false;
 	function toggleOverlay() {
@@ -28,8 +31,7 @@
 	</div>
 	<div class="contentContainer">
 		<h3>
-			{#if artwork.number}{artwork.number}. {/if}{artwork.title}
-			{#if artwork.subTitle}<span>({artwork.subTitle})</span>{/if}
+			<Title {artwork} />
 		</h3>
 		<p>
 			{#if artwork.description}{artwork.description}{:else}Haven't written a
@@ -99,10 +101,6 @@
 		margin: 0.4rem 0 0;
 		cursor: pointer;
 		width: fit-content;
-	}
-	span {
-		font-weight: 400;
-		font-size: 0.8rem;
 	}
 	p {
 		margin: 0.4rem 0 0;
