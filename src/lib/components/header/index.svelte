@@ -68,7 +68,7 @@
 			left: 0;
 			right: 0;
 			height: var(--hover-menu-indicator-size);
-			background: var(--accent-color);
+			background: var(--primary-color);
 			border-radius: 50rem;
 		}
 	}

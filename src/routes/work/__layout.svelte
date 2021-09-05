@@ -41,7 +41,7 @@
 		border: 1px solid transparent;
 	}
 	.selected {
-		border: 1px solid var(--accent-color);
+		border: 1px solid var(--primary-color);
 	}
 
 	@media (min-width: 768px) {

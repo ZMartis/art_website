@@ -40,7 +40,7 @@
 		width: 0.5rem;
 		height: 0.5rem;
 		border-radius: 50rem;
-		background: var(--accent-color);
+		background: var(--primary-color);
 		left: -1rem;
 		position: absolute;
 	}
@@ -58,7 +58,7 @@
 			left: 0;
 			right: 0;
 			height: var(--hover-menu-indicator-size);
-			background: var(--accent-color);
+			background: var(--primary-color);
 			border-radius: 50rem;
 		}
 		.active:after {
@@ -69,7 +69,7 @@
 			left: 0;
 			right: 0;
 			height: var(--active-menu-indicator-size);
-			background: var(--accent-color);
+			background: var(--primary-color);
 			border-radius: 50rem;
 		}
 		span {
