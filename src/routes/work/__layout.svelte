@@ -40,8 +40,11 @@
 		padding: 0 1rem 0.1rem;
 		border: 1px solid transparent;
 	}
+	a:hover {
+		border: 0.5px solid var(--primary-color);
+	}
 	.selected {
-		border: 1px solid var(--primary-color);
+		border: 1.5px solid var(--primary-color) !important;
 	}
 
 	@media (min-width: 768px) {
