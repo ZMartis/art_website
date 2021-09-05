@@ -1,9 +1,21 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import { canvases } from '$lib/data/canvases';
-	import { capitalize, find } from 'lodash';
+	import { macros } from '$lib/data/macros';
+	import { paintOnPapers } from '$lib/data/paint_on_papers';
+	import { pixelSorts } from '$lib/data/pixel_sorts';
+	import { stripes } from '$lib/data/stripes';
+	import { capitalize, find, union } from 'lodash';
 	import Title from '$lib/components/title/index.svelte';
-	const artwork = find(canvases, ['title', capitalize($page.params.title)]);
+
+	const allArtwork = union(
+		canvases,
+		macros,
+		paintOnPapers,
+		pixelSorts,
+		stripes
+	);
+	const artwork = find(allArtwork, ['title', capitalize($page.params.title)]);
 
 	$: image = artwork.image ? artwork.image : artwork.smallImage;
 	$: imageAlt = artwork.subTitle

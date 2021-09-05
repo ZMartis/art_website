@@ -2,6 +2,8 @@
 	import type { Artwork } from 'src/types/artwork';
 	import { fade } from 'svelte/transition';
 	import Title from '$lib/components/title/index.svelte';
+	import { goto } from '$app/navigation';
+	import { lowerCase } from 'lodash';
 
 	export let artwork: Artwork;
 
@@ -14,11 +16,16 @@
 	function toggleOverlay() {
 		overlayActive = !overlayActive;
 	}
+
+	function navigate() {
+		goto(`/artwork/${lowerCase(artwork.title)}`);
+	}
 </script>
 
 <div
 	on:mouseenter={toggleOverlay}
 	on:mouseleave={toggleOverlay}
+	on:click={navigate}
 	class="listingContainer"
 >
 	<div class="imgContainer">
