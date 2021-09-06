@@ -5,7 +5,7 @@
 	import { paintOnPapers } from '$lib/data/paint_on_papers';
 	import { pixelSorts } from '$lib/data/pixel_sorts';
 	import { stripes } from '$lib/data/stripes';
-	import { capitalize, find, replace, union } from 'lodash-es';
+	import { find, replace, toLower, union } from 'lodash-es';
 	import Title from '$lib/components/title/index.svelte';
 
 	const allArtwork = union(
@@ -15,24 +15,17 @@
 		pixelSorts,
 		stripes
 	);
-
 	function convertRoute() {
 		return replace(replace($page.params.title, '_', ' '), '+', '.');
 	}
+	const artwork = find(allArtwork, (artwork) => {
+		return toLower(artwork.title) === toLower(convertRoute());
+	});
 
-	const artwork = find(allArtwork, ['title', convertRoute()]);
-
-	$: image = artwork.image ? artwork.image : artwork.smallImage;
-	$: imageAlt = artwork.subTitle
+	const image = artwork.image ? artwork.image : artwork.smallImage;
+	const imageAlt = artwork.subTitle
 		? artwork.title + ' (' + artwork.subTitle + ')'
 		: artwork.title;
-
-	function convertTitle() {
-		let convertedTitle = artwork.title;
-		convertedTitle = replace(convertedTitle, ' ', '_');
-		convertedTitle = replace(convertedTitle, '.', '+');
-		return convertedTitle;
-	}
 
 	function mediumDescription() {
 		switch (artwork.medium) {
