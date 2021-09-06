@@ -19,7 +19,6 @@
 		return replace(replace($page.params.title, '_', ' '), '+', '.');
 	}
 	const artwork = find(allArtwork, (artwork) => {
-		console.log(toLower(artwork.title));
 		return toLower(artwork.title) === toLower(convertRoute());
 	});
 
@@ -27,13 +26,6 @@
 	const imageAlt = artwork.subTitle
 		? artwork.title + ' (' + artwork.subTitle + ')'
 		: artwork.title;
-
-	function convertTitle() {
-		let convertedTitle = artwork.title;
-		convertedTitle = replace(convertedTitle, ' ', '_');
-		convertedTitle = replace(convertedTitle, '.', '+');
-		return convertedTitle;
-	}
 
 	function mediumDescription() {
 		switch (artwork.medium) {
