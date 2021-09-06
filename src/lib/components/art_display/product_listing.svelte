@@ -100,6 +100,7 @@
 		color: var(--primary-color);
 		font-size: 1.6rem;
 		padding: 0.8rem 1rem 1rem;
+		margin: 0;
 		border: 0.2rem solid var(--primary-color);
 	}
 	.contentContainer {
