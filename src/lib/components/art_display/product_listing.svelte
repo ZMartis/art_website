@@ -27,6 +27,8 @@
 		goto(`/artwork/${convertedTitle()}`);
 	}
 
+	// href={`/artwork/${convertedTitle()}`}
+
 	// This is to get around devices that don't support CSS aspect-ratio
 	onMount(() => {
 		const elements = document.getElementsByName('productListingImageContainer');
@@ -37,11 +39,11 @@
 	});
 </script>
 
-<a
+<div
 	on:mouseenter={toggleOverlay}
 	on:mouseleave={toggleOverlay}
+	on:click={navigate}
 	class="listingContainer"
-	href={`/artwork/${convertedTitle()}`}
 >
 	<div name="productListingImageContainer" class="imgContainer">
 		<img src={image} alt={imageAlt} />
@@ -68,7 +70,7 @@
 			</div>
 		{/if}
 	</div>
-</a>
+</div>
 
 <style>
 	.listingContainer {
