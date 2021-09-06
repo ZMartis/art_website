@@ -1,4 +1,5 @@
-<script lang="ts" context="module">
+<script lang="ts">
+	import { page } from '$app/stores';
 	import { canvases } from '$lib/data/canvases';
 	import { macros } from '$lib/data/macros';
 	import { paintOnPapers } from '$lib/data/paint_on_papers';
@@ -7,27 +8,20 @@
 	import { find, replace, toLower, union } from 'lodash-es';
 	import Title from '$lib/components/title/index.svelte';
 
-	export async function load({ page }) {
-		const allArtwork = union(
-			canvases,
-			macros,
-			paintOnPapers,
-			pixelSorts,
-			stripes
-		);
-		function convertRoute() {
-			return replace(replace(page.params.title, '_', ' '), '+', '.');
-		}
-		const artwork = find(allArtwork, (artwork) => {
-			console.log(toLower(artwork.title));
-			return toLower(artwork.title) === toLower(convertRoute());
-		});
-		return { props: { artwork: artwork } };
+	const allArtwork = union(
+		canvases,
+		macros,
+		paintOnPapers,
+		pixelSorts,
+		stripes
+	);
+	function convertRoute() {
+		return replace(replace($page.params.title, '_', ' '), '+', '.');
 	}
-</script>
-
-<script lang="ts">
-	export let artwork;
+	const artwork = find(allArtwork, (artwork) => {
+		console.log(toLower(artwork.title));
+		return toLower(artwork.title) === toLower(convertRoute());
+	});
 
 	const image = artwork.image ? artwork.image : artwork.smallImage;
 	const imageAlt = artwork.subTitle
