@@ -3,7 +3,7 @@
 	import { fade } from 'svelte/transition';
 	import Title from '$lib/components/title/index.svelte';
 	import { goto } from '$app/navigation';
-	import { lowerCase } from 'lodash-es';
+	import { toLower, replace } from 'lodash-es';
 
 	export let artwork: Artwork;
 
@@ -17,8 +17,12 @@
 		overlayActive = !overlayActive;
 	}
 
+	function convertedTitle() {
+		return replace(replace(artwork.title, ' ', '_'), '.', '+');
+	}
+
 	function navigate() {
-		goto(`/artwork/${lowerCase(artwork.title)}`);
+		goto(`/artwork/${convertedTitle()}`);
 	}
 </script>
 
