@@ -1,29 +1,36 @@
-<script lang="ts">
-	import { page } from '$app/stores';
+<script lang="ts" context="module">
 	import { canvases } from '$lib/data/canvases';
 	import { macros } from '$lib/data/macros';
 	import { paintOnPapers } from '$lib/data/paint_on_papers';
 	import { pixelSorts } from '$lib/data/pixel_sorts';
 	import { stripes } from '$lib/data/stripes';
-	import { capitalize, find, replace, union } from 'lodash-es';
+	import { find, replace, toLower, union } from 'lodash-es';
 	import Title from '$lib/components/title/index.svelte';
 
-	const allArtwork = union(
-		canvases,
-		macros,
-		paintOnPapers,
-		pixelSorts,
-		stripes
-	);
-
-	function convertRoute() {
-		return replace(replace($page.params.title, '_', ' '), '+', '.');
+	export async function load({ page }) {
+		const allArtwork = union(
+			canvases,
+			macros,
+			paintOnPapers,
+			pixelSorts,
+			stripes
+		);
+		function convertRoute() {
+			return replace(replace(page.params.title, '_', ' '), '+', '.');
+		}
+		const artwork = find(allArtwork, (artwork) => {
+			console.log(toLower(artwork.title));
+			return toLower(artwork.title) === toLower(convertRoute());
+		});
+		return { props: { artwork: artwork } };
 	}
+</script>
 
-	const artwork = find(allArtwork, ['title', convertRoute()]);
+<script lang="ts">
+	export let artwork;
 
-	$: image = artwork.image ? artwork.image : artwork.smallImage;
-	$: imageAlt = artwork.subTitle
+	const image = artwork.image ? artwork.image : artwork.smallImage;
+	const imageAlt = artwork.subTitle
 		? artwork.title + ' (' + artwork.subTitle + ')'
 		: artwork.title;
 
