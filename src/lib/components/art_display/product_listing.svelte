@@ -4,6 +4,7 @@
 	import Title from '$lib/components/title/index.svelte';
 	import { goto } from '$app/navigation';
 	import { toLower, replace } from 'lodash-es';
+	import { onMount } from 'svelte';
 
 	export let artwork: Artwork;
 
@@ -24,6 +25,12 @@
 	function navigate() {
 		goto(`/artwork/${convertedTitle()}`);
 	}
+
+	// This is to get around devices that don't support CSS aspect-ratio
+	onMount(() => {
+		const element = document.getElementById('productListingImageContainer');
+		element.style.height = element.clientWidth + 'px';
+	});
 </script>
 
 <a
@@ -32,7 +39,7 @@
 	class="listingContainer"
 	href={`/artwork/${convertedTitle()}`}
 >
-	<div class="imgContainer">
+	<div id="productListingImageContainer" class="imgContainer">
 		<img src={image} alt={imageAlt} />
 		{#if overlayActive}
 			<div transition:fade={{ duration: 200 }} class="imageOverlay">
