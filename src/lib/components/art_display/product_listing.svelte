@@ -23,18 +23,13 @@
 		return replace(replace(artwork.title, ' ', '_'), '.', '+');
 	}
 
-	function navigate() {
-		goto(`/artwork/${convertedTitle()}`);
-	}
-
-	// href={`/artwork/${convertedTitle()}`}
-
 	// This is to get around devices that don't support CSS aspect-ratio
 	onMount(() => {
 		const elements = document.getElementsByName('productListingImageContainer');
 		each(
 			elements,
-			(element) => (element.style.height = element.clientWidth + 'px')
+			(element: HTMLElement) =>
+				(element.style.height = element.clientWidth + 'px')
 		);
 	});
 </script>
@@ -42,7 +37,7 @@
 <div
 	on:mouseenter={toggleOverlay}
 	on:mouseleave={toggleOverlay}
-	on:click={navigate}
+	on:click={() => goto(`/artwork/${convertedTitle()}`)}
 	class="listingContainer"
 >
 	<div name="productListingImageContainer" class="imgContainer">
