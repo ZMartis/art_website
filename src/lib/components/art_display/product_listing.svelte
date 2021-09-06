@@ -26,11 +26,11 @@
 	}
 </script>
 
-<div
+<a
 	on:mouseenter={toggleOverlay}
 	on:mouseleave={toggleOverlay}
-	on:click={navigate}
 	class="listingContainer"
+	href={convertedTitle()}
 >
 	<div class="imgContainer">
 		<img src={image} alt={imageAlt} />
@@ -57,7 +57,7 @@
 			</div>
 		{/if}
 	</div>
-</div>
+</a>
 
 <style>
 	.listingContainer {
