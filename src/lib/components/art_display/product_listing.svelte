@@ -30,7 +30,7 @@
 	on:mouseenter={toggleOverlay}
 	on:mouseleave={toggleOverlay}
 	class="listingContainer"
-	href={convertedTitle()}
+	href={`/artwork/${convertedTitle()}`}
 >
 	<div class="imgContainer">
 		<img src={image} alt={imageAlt} />
