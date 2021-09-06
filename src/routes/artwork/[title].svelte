@@ -33,6 +33,21 @@
 		convertedTitle = replace(convertedTitle, '.', '+');
 		return convertedTitle;
 	}
+
+	function mediumDescription() {
+		switch (artwork.medium) {
+			case 'canvas':
+				return 'Paint on canvas';
+			case 'macro':
+				return 'Macro photograph of paint';
+			case 'paintOnPaper':
+				return 'Paint on paper';
+			case 'pixelSort':
+				return 'Digitally sorted image';
+			case 'stripes':
+				return 'Photo manipulation on satin';
+		}
+	}
 </script>
 
 <div class="container">
@@ -44,8 +59,8 @@
 		<h1>
 			<Title {artwork} />
 		</h1>
-		<p>{artwork.medium}</p>
-		<p>{artwork.sold ? 'Sold' : artwork.price}</p>
+		<p>{mediumDescription()} - {artwork.sold ? 'Sold' : artwork.price}</p>
+		<button disabled={artwork.sold}>{artwork.sold ? 'Sold' : 'Inquire'}</button>
 		<p>{artwork.description}</p>
 	</div>
 </div>
@@ -55,7 +70,7 @@
 		width: 100%;
 		display: flex;
 		flex-direction: column;
-		padding: 0 5%;
+		padding: 5%;
 	}
 	.section {
 		width: 100%;
@@ -84,7 +99,6 @@
 	p {
 		margin: 0;
 	}
-
 	@media (min-width: 768px) {
 		/* your tablet styles go here */
 	}
