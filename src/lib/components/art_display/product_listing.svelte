@@ -5,6 +5,7 @@
 	import { goto } from '$app/navigation';
 	import { toLower, replace } from 'lodash-es';
 	import { onMount } from 'svelte';
+	import { each } from 'svelte/internal';
 
 	export let artwork: Artwork;
 
@@ -28,8 +29,11 @@
 
 	// This is to get around devices that don't support CSS aspect-ratio
 	onMount(() => {
-		const element = document.getElementById('productListingImageContainer');
-		element.style.height = element.clientWidth + 'px';
+		const elements = document.getElementsByName('productListingImageContainer');
+		each(
+			elements,
+			(element) => (element.style.height = element.clientWidth + 'px')
+		);
 	});
 </script>
 
@@ -39,7 +43,7 @@
 	class="listingContainer"
 	href={`/artwork/${convertedTitle()}`}
 >
-	<div id="productListingImageContainer" class="imgContainer">
+	<div name="productListingImageContainer" class="imgContainer">
 		<img src={image} alt={imageAlt} />
 		{#if overlayActive}
 			<div transition:fade={{ duration: 200 }} class="imageOverlay">
