@@ -7,6 +7,7 @@
 	import { stripes } from '$lib/data/stripes';
 	import { find, replace, toLower, union } from 'lodash-es';
 	import Title from '$lib/components/title/index.svelte';
+	import { onMount } from 'svelte';
 
 	const allArtwork = union(
 		canvases,
@@ -41,6 +42,8 @@
 				return 'Photo manipulation on satin';
 		}
 	}
+
+	document.getElementsByName('slugImage');
 </script>
 
 <div class="container">
@@ -94,6 +97,21 @@
 	}
 	@media (min-width: 768px) {
 		/* your tablet styles go here */
+		.container {
+			padding: 2%;
+			align-items: center;
+		}
+		.blankContainer {
+			width: 0;
+		}
+		.imageContainer {
+			width: 100%;
+			height: 60vh;
+		}
+		img {
+			max-height: 100%;
+			object-fit: contain;
+		}
 	}
 	@media (min-widthe: 1366px) {
 		/* your desktop styles go here */

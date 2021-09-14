@@ -23,8 +23,8 @@
 		return replace(replace(artwork.title, ' ', '_'), '.', '+');
 	}
 
-	// This is to get around devices that don't support CSS aspect-ratio
 	onMount(() => {
+		// This is to get around devices that don't support CSS aspect-ratio
 		const elements = document.getElementsByName('productListingImageContainer');
 		each(
 			elements,
