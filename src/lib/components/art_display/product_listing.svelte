@@ -3,7 +3,7 @@
 	import { fade } from 'svelte/transition';
 	import Title from '$lib/components/title/index.svelte';
 	import { goto } from '$app/navigation';
-	import { toLower, replace } from 'lodash-es';
+	import { replace } from 'lodash-es';
 	import { onMount } from 'svelte';
 	import { each } from 'svelte/internal';
 

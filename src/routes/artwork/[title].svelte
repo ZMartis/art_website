@@ -43,15 +43,19 @@
 		}
 	}
 
-	document.getElementsByName('slugImage');
+	onMount(() => {
+		let image = document.getElementById($page.params.title + 'Image');
+		let content = document.getElementById($page.params.title + 'Content');
+		content.style.width = image.clientWidth + 'px';
+	});
 </script>
 
 <div class="container">
 	<div class="blankContainer section" />
 	<div class="imageContainer section">
-		<img src={image} alt={imageAlt} />
+		<img id={$page.params.title + 'Image'} src={image} alt={imageAlt} />
 	</div>
-	<div class="contentContainer section">
+	<div id={$page.params.title + 'Content'} class="contentContainer section">
 		<h1>
 			<Title {artwork} />
 		</h1>
