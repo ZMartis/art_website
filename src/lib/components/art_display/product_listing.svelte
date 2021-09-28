@@ -3,14 +3,14 @@
 	import { fade } from 'svelte/transition';
 	import Title from '$lib/components/title/index.svelte';
 	import { goto } from '$app/navigation';
-	import { toLower, replace } from 'lodash-es';
+	import { replace } from 'lodash-es';
 	import { onMount } from 'svelte';
 	import { each } from 'svelte/internal';
 
 	export let artwork: Artwork;
 
-	$: image = artwork.smallImage ? artwork.smallImage : artwork.image;
-	$: imageAlt = artwork.subTitle
+	const image = artwork.smallImage ? artwork.smallImage : artwork.image;
+	const imageAlt = artwork.subTitle
 		? artwork.title + ' (' + artwork.subTitle + ')'
 		: artwork.title;
 
@@ -23,8 +23,8 @@
 		return replace(replace(artwork.title, ' ', '_'), '.', '+');
 	}
 
-	// This is to get around devices that don't support CSS aspect-ratio
 	onMount(() => {
+		// This is to get around devices that don't support CSS aspect-ratio
 		const elements = document.getElementsByName('productListingImageContainer');
 		each(
 			elements,
@@ -76,6 +76,7 @@
 		background-color: var(--primary-color);
 		transition-duration: 0.2s;
 		color: var(--white);
+		cursor: pointer;
 	}
 	.imgContainer {
 		width: 100%;
@@ -90,7 +91,6 @@
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
-		cursor: pointer;
 		position: absolute;
 	}
 	.imageOverlay {
@@ -99,7 +99,6 @@
 		width: 100%;
 		height: 100%;
 		position: absolute;
-		cursor: pointer;
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -119,7 +118,6 @@
 	}
 	h3 {
 		margin: 0.4rem 0 0;
-		cursor: pointer;
 		width: fit-content;
 	}
 	p {

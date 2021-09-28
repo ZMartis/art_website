@@ -11,13 +11,16 @@
 	--black: #000000;
 	--primary-text-color: #000000;
 	--placeholder-text-color: #999999;
-	--primary-color: #00ff89;
 	--secondary-color: #0cddf2;
 	--tertiary-color: #eee;
+	--disabled-grey: #ccc;
 
 	--error-color: #a3211c;
 	--hover-menu-indicator-size: 0.05rem;
 	--active-menu-indicator-size: 0.12rem;
+
+	/* Colors */
+	--primary-color: #00ff89;
 }
 
 html,
