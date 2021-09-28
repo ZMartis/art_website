@@ -5,9 +5,10 @@
 	import { paintOnPapers } from '$lib/data/paint_on_papers';
 	import { pixelSorts } from '$lib/data/pixel_sorts';
 	import { stripes } from '$lib/data/stripes';
-	import { find, replace, toLower, union } from 'lodash-es';
+	import { find, replace, snakeCase, toLower, union } from 'lodash-es';
 	import Title from '$lib/components/title/index.svelte';
-	import { onMount } from 'svelte';
+	import BaseButton from '$lib/components/base/base_button.svelte';
+	import BackButton from '$lib/components/back_button/index.svelte';
 
 	const allArtwork = union(
 		canvases,
@@ -43,61 +44,67 @@
 		}
 	}
 
-	onMount(() => {
-		let image = document.getElementById($page.params.title + 'Image');
-		let content = document.getElementById($page.params.title + 'Content');
-		content.style.width = image.clientWidth + 'px';
-	});
+	const route = '/work/' + snakeCase(artwork.medium);
 </script>
 
-<div class="container">
-	<div class="blankContainer section" />
-	<div class="imageContainer section">
-		<img id={$page.params.title + 'Image'} src={image} alt={imageAlt} />
-	</div>
-	<div id={$page.params.title + 'Content'} class="contentContainer section">
-		<h1>
-			<Title {artwork} />
-		</h1>
-		<p>{mediumDescription()} - {artwork.sold ? 'Sold' : artwork.price}</p>
-		<button disabled={artwork.sold}>{artwork.sold ? 'Sold' : 'Inquire'}</button>
-		<p>{artwork.description}</p>
+<div class="backButtonContainer">
+	<BackButton {route} />
+</div>
+<div class="pageContent">
+	<div class="container">
+		<img src={image} alt={imageAlt} />
+		<div class="contentContainer">
+			<h1>
+				<Title {artwork} />
+			</h1>
+			<p>{mediumDescription()} - {artwork.sold ? 'Sold' : artwork.price}</p>
+			<div class="buttonContainer">
+				<BaseButton disabled={artwork.sold}
+					>{artwork.sold ? 'Sold' : 'Inquire'}</BaseButton
+				>
+			</div>
+			<p>{artwork.description}</p>
+		</div>
 	</div>
 </div>
 
 <style>
-	.container {
+	.backButtonContainer {
+		margin-left: 0.8rem;
+	}
+	.pageContent {
 		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.container {
+		/* width: fit-content; */
 		display: flex;
 		flex-direction: column;
 		padding: 5%;
 	}
-	.section {
-		width: 100%;
-	}
-	.blankContainer {
-		height: 0;
-	}
-	.imageContainer {
-		width: 100%;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-	}
 	img {
 		max-width: 100%;
 		object-fit: cover;
+		box-shadow: 20px 18px 37px 1px rgba(0, 0, 0, 0.15);
 	}
 	.contentContainer {
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
+		width: 100%;
+		margin-top: 20px;
 	}
 	h1 {
 		margin: 0;
+		letter-spacing: 0.1rem;
 	}
 	p {
 		margin: 0;
+	}
+	.buttonContainer {
+		margin-top: 0.4rem;
 	}
 	@media (min-width: 768px) {
 		/* your tablet styles go here */
@@ -105,15 +112,9 @@
 			padding: 2%;
 			align-items: center;
 		}
-		.blankContainer {
-			width: 0;
-		}
-		.imageContainer {
-			width: 100%;
-			height: 60vh;
-		}
 		img {
-			max-height: 100%;
+			max-height: 70vh;
+			width: 100%;
 			object-fit: contain;
 		}
 	}

@@ -4,26 +4,37 @@
 	import { includes } from 'lodash-es';
 </script>
 
-<div>
-	<a href="/work/canvas" class:selected={includes($page.path, 'canvas')}
-		>Canvas</a
-	>
-	<a
-		href="/work/paint_on_paper"
-		class:selected={includes($page.path, 'paint_on_paper')}>Paint on Paper</a
-	>
-	<a href="/work/stripes" class:selected={includes($page.path, 'stripes')}
-		>Stripes</a
-	>
-	<a href="/work/pixel_sort" class:selected={includes($page.path, 'pixel_sort')}
-		>Pixel Sort</a
-	>
-	<a href="/work/macro" class:selected={includes($page.path, 'macro')}>Macro</a>
+<div class="pageContainer">
+	<div class="navigation">
+		<a href="/work/canvas" class:selected={includes($page.path, 'canvas')}
+			>Canvas</a
+		>
+		<a
+			href="/work/paint_on_paper"
+			class:selected={includes($page.path, 'paint_on_paper')}>Paint on Paper</a
+		>
+		<a href="/work/stripes" class:selected={includes($page.path, 'stripes')}
+			>Stripes</a
+		>
+		<a
+			href="/work/pixel_sort"
+			class:selected={includes($page.path, 'pixel_sort')}>Pixel Sort</a
+		>
+		<a href="/work/macro" class:selected={includes($page.path, 'macro')}
+			>Macro</a
+		>
+	</div>
+	<slot />
 </div>
-<slot />
 
 <style>
-	div {
+	.pageContainer {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.navigation {
 		display: flex;
 		flex-direction: row;
 		width: 100%;
@@ -48,12 +59,12 @@
 	}
 
 	@media (min-width: 768px) {
-		div {
+		.navigation {
 			width: 60%;
 		}
 	}
 	@media (min-width: 1366px) {
-		div {
+		.navigation {
 			width: 40%;
 		}
 	}
