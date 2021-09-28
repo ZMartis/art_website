@@ -59,6 +59,7 @@
 			</h1>
 			<p>{mediumDescription()} - {artwork.sold ? 'Sold' : artwork.price}</p>
 			<div class="buttonContainer">
+				<!-- TODO: Make Inquire button go somewhere -->
 				<BaseButton disabled={artwork.sold}
 					>{artwork.sold ? 'Sold' : 'Inquire'}</BaseButton
 				>
