@@ -105,6 +105,11 @@
 		align-items: flex-start;
 		width: 100%;
 		margin-top: 20px;
+		background-color: white;
+		border: 1px solid #eee;
+		padding: 1rem;
+		width: fit-content;
+		box-shadow: 20px 18px 37px 1px rgba(0, 0, 0, 0.15);
 	}
 	h1 {
 		margin: 0;
@@ -120,7 +125,7 @@
 		/* your tablet styles go here */
 		.container {
 			padding: 2%;
-			align-items: center;
+			align-items: flex-start;
 		}
 		img {
 			max-height: 70vh;
