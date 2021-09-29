@@ -1,11 +1,12 @@
 <script lang="ts">
 	import ProductListing from '$lib/components/art_display/product_listing.svelte';
 	import type { Artwork } from 'src/types/artwork';
+	import { fade } from 'svelte/transition';
 
 	export let artworks: Artwork[];
 </script>
 
-<div>
+<div in:fade={{ duration: 1000, delay: 1100 }} out:fade={{ duration: 1000 }}>
 	{#each artworks as artwork}
 		<ProductListing {artwork} />
 	{/each}
@@ -17,7 +18,7 @@
 		justify-items: center;
 		grid-template-columns: repeat(2, 1fr);
 		grid-gap: 1.5rem 1rem;
-		margin: 1rem;
+		padding: 1rem;
 	}
 	@media (min-width: 768px) {
 		div {
