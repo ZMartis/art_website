@@ -2,9 +2,14 @@
 	import { page } from '$app/stores';
 
 	import { includes } from 'lodash-es';
+	import { fade } from 'svelte/transition';
 </script>
 
-<div class="pageContainer">
+<div
+	in:fade={{ delay: 1001, duration: 1000 }}
+	out:fade={{ duration: 1000 }}
+	class="pageContainer"
+>
 	<div class="navigation">
 		<a href="/work/canvas" class:selected={includes($page.path, 'canvas')}
 			>Canvas</a

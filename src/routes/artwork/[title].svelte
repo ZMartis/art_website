@@ -9,6 +9,7 @@
 	import Title from '$lib/components/title/index.svelte';
 	import BaseButton from '$lib/components/base/base_button.svelte';
 	import BackButton from '$lib/components/back_button/index.svelte';
+	import { fade } from 'svelte/transition';
 
 	const allArtwork = union(
 		canvases,
@@ -24,7 +25,7 @@
 		return toLower(artwork.title) === toLower(convertRoute());
 	});
 
-	const image = artwork.image ? artwork.image : artwork.smallImage;
+	const image = artwork.smallImage;
 	const imageAlt = artwork.subTitle
 		? artwork.title + ' (' + artwork.subTitle + ')'
 		: artwork.title;
@@ -47,11 +48,19 @@
 	const route = '/work/' + snakeCase(artwork.medium);
 </script>
 
-<div class="backButtonContainer">
+<div
+	in:fade={{ duration: 1000, delay: 1001 }}
+	out:fade={{ duration: 1000 }}
+	class="backButtonContainer"
+>
 	<BackButton {route} />
 </div>
 <div class="pageContent">
-	<div class="container">
+	<div
+		in:fade={{ duration: 1000, delay: 1001 }}
+		out:fade={{ duration: 1000 }}
+		class="container"
+	>
 		<img src={image} alt={imageAlt} />
 		<div class="contentContainer">
 			<h1>

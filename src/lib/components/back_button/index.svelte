@@ -91,6 +91,7 @@
 		box-sizing: content-box;
 		width: 0;
 		height: 0;
+		margin-right: 0.1rem;
 		border-top: var(--size) solid transparent;
 		border-bottom: var(--size) solid transparent;
 		border-right: var(--size) solid var(--primary-color);
@@ -101,6 +102,7 @@
 		box-sizing: content-box;
 		width: 0;
 		height: 0;
+		margin-right: 0.1rem;
 		border-top: var(--size) solid transparent;
 		border-bottom: var(--size) solid transparent;
 		border-right: var(--size) solid var(--white);

@@ -3,15 +3,22 @@
 	import '../app.css';
 </script>
 
-<Header />
-<main>
-	<slot />
-</main>
+<div>
+	<Header />
+	<main>
+		<slot />
+	</main>
+</div>
 
 <!-- Not sure I need the footer -->
 
 <!-- <footer /> -->
 <style>
+	div {
+		height: 100vh;
+		width: 100vw;
+		overflow-y: scroll;
+	}
 	main {
 		display: flex;
 		flex-direction: column;
