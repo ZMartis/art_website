@@ -10,24 +10,31 @@
 	<div class="card">
 		<h1>Artist Statement</h1>
 		<p>
-			But I must explain to you how all this mistaken idea of denouncing
-			pleasure and praising pain was born and I will give you a complete account
-			of the system, and expound the actual teachings of the great explorer of
-			the truth, the master-builder of human happiness. No one rejects,
-			dislikes, or avoids pleasure itself, because it is pleasure, but because
-			those who do not know how to pursue pleasure rationally encounter
-			consequences that are extremely painful. Nor again is there anyone who
-			loves or pursues or desires to obtain pain of itself, because it is pain,
-			but because occasionally circumstances occur in which toil and pain can
-			procure him some great pleasure. To take a trivial example, which of us
-			ever undertakes laborious physical exercise, except to obtain some
-			advantage from it? But who has any right to find fault with a man who
-			chooses to enjoy a pleasure that has no annoying consequences, or one who
-			avoids a pain that produces no resultant pleasure?
+			The human mind is an excellent pattern recognition device; so much so that
+			it can’t help but assign images and concepts where they may not otherwise
+			exist. My artwork focuses almost entirely on color in a way that allows
+			the viewer to get a glimpse into this usually unnoticed mental process of
+			pattern recognition.
+		</p>
+		<p>
+			Everyone has experienced this process when seeing images in the clouds, or
+			when viewing a Rorschach test. In my work, I give the viewer an abstract
+			composition of texture and flowing color so that their visual senses have
+			the necessary building blocks to let their mind naturally sculpt out
+			patterns, forms, and concepts. Through this, my work exists in two
+			different forms, both concretely in the physical form and uniquely in the
+			viewer’s mind.
+		</p>
+		<p>
+			Throughout my body of work the different mediums influence this mental
+			process in different ways. Where paint allows for a more visual reaction
+			in the viewer’s mind, the digital medium allows for a more conceptual
+			reaction.
 		</p>
 	</div>
 
-	<div class="card">
+	<!-- TODO: Add in about the artist. -->
+	<!-- <div class="card">
 		<h1>About Zach</h1>
 		<p>
 			But I must explain to you how all this mistaken idea of denouncing
@@ -45,7 +52,7 @@
 			chooses to enjoy a pleasure that has no annoying consequences, or one who
 			avoids a pain that produces no resultant pleasure?
 		</p>
-	</div>
+	</div> -->
 </div>
 
 <style>
