@@ -5,7 +5,14 @@
 	import { paintOnPapers } from '$lib/data/paint_on_papers';
 	import { pixelSorts } from '$lib/data/pixel_sorts';
 	import { stripes } from '$lib/data/stripes';
-	import { find, replace, snakeCase, toLower, union } from 'lodash-es';
+	import {
+		find,
+		replace,
+		snakeCase,
+		startCase,
+		toLower,
+		union
+	} from 'lodash-es';
 	import Title from '$lib/components/title/index.svelte';
 	import BaseButton from '$lib/components/base/base_button.svelte';
 	import BackButton from '$lib/components/back_button/index.svelte';
@@ -53,7 +60,7 @@
 	out:fade={{ duration: 1000 }}
 	class="backButtonContainer"
 >
-	<BackButton {route} />
+	<BackButton {route} text={startCase(artwork.medium)} />
 </div>
 <div class="pageContent">
 	<div
@@ -92,7 +99,7 @@
 		/* width: fit-content; */
 		display: flex;
 		flex-direction: column;
-		padding: 5%;
+		padding: 2%;
 	}
 	img {
 		max-width: 100%;
@@ -124,7 +131,7 @@
 	@media (min-width: 768px) {
 		/* your tablet styles go here */
 		.container {
-			padding: 2%;
+			padding: 0;
 			align-items: flex-start;
 		}
 		img {

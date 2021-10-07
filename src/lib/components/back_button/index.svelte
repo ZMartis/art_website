@@ -4,6 +4,7 @@
 	import { fade } from 'svelte/transition';
 
 	export let route: string;
+	export let text: string;
 
 	const content = '<';
 	let textVisible = false;
@@ -40,9 +41,11 @@
 			/>
 		</div>
 	{/if}
-	<p class="onlyOnMobile">Back</p>
+	<p class="onlyOnMobile">{text ? text : 'Back'}</p>
 	{#if textVisible}
-		<p class="notOnMobile" transition:fade={{ duration: 350 }}>Back</p>
+		<p class="notOnMobile" transition:fade={{ duration: 350 }}>
+			{text ? text : 'Back'}
+		</p>
 	{/if}
 </div>
 
@@ -59,7 +62,6 @@
 		align-items: center;
 		position: relative;
 		height: 2rem;
-		width: 2rem;
 	}
 	.backButton {
 		border: 2px solid var(--primary-color);
