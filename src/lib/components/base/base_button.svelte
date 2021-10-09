@@ -1,8 +1,9 @@
 <script lang="ts">
-	export let disabled: boolean;
+	export let disabled: boolean = false;
+	export let type: string = 'button';
 </script>
 
-<button type="button" {disabled}><slot /></button>
+<button {type} {disabled}><slot /></button>
 
 <style>
 	/* your mobile styles go here */

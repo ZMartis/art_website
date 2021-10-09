@@ -17,6 +17,7 @@
 	import BaseButton from '$lib/components/base/base_button.svelte';
 	import BackButton from '$lib/components/back_button/index.svelte';
 	import { fade } from 'svelte/transition';
+	import { goto } from '$app/navigation';
 
 	const allArtwork = union(
 		canvases,
@@ -76,9 +77,11 @@
 			<p>{mediumDescription()} - {artwork.sold ? 'Sold' : artwork.price}</p>
 			<div class="buttonContainer">
 				<!-- TODO: Make Inquire button go somewhere -->
-				<BaseButton disabled={artwork.sold}
-					>{artwork.sold ? 'Sold' : 'Inquire'}</BaseButton
-				>
+				<a href={`/contact?inquiry=${artwork.title}`}>
+					<BaseButton disabled={artwork.sold}
+						>{artwork.sold ? 'Sold' : 'Inquire'}</BaseButton
+					>
+				</a>
 			</div>
 			<p>{artwork.description}</p>
 		</div>
