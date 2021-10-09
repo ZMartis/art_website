@@ -1,10 +1,15 @@
 <script lang="ts">
 	import { page } from '$app/stores';
+	import { fade } from 'svelte/transition';
 	import BaseButton from '$lib/components/base/base_button.svelte';
 	$: inquiry = $page.query.get('inquiry');
 </script>
 
-<div class="container">
+<div
+	in:fade={{ duration: 1000, delay: 1001 }}
+	out:fade={{ duration: 1000 }}
+	class="container"
+>
 	<div class="card">
 		<h1>Contact</h1>
 		<form>
