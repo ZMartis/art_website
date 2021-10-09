@@ -76,9 +76,11 @@
 			<p>{mediumDescription()} - {artwork.sold ? 'Sold' : artwork.price}</p>
 			<div class="buttonContainer">
 				<!-- TODO: Make Inquire button go somewhere -->
-				<BaseButton disabled={artwork.sold}
-					>{artwork.sold ? 'Sold' : 'Inquire'}</BaseButton
-				>
+				<a href={`/contact?inquiry=${artwork.title}`}>
+					<BaseButton disabled={artwork.sold}
+						>{artwork.sold ? 'Sold' : 'Inquire'}</BaseButton
+					>
+				</a>
 			</div>
 			<p>{artwork.description}</p>
 		</div>
