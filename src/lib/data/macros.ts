@@ -7,10 +7,12 @@ export const macros: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Macro/No1.jpg',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Macro/No1.webp',
-		medium: 'macro',
+		medium: 'Photography',
 		price: '$100',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'macro'
 	},
 	{
 		id: '1',
@@ -19,10 +21,12 @@ export const macros: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Macro/Blau.jpg',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Macro/Blau.webp',
-		medium: 'macro',
+		medium: 'Photography',
 		price: '$100',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'macro'
 	},
 	{
 		id: '2',
@@ -31,10 +35,12 @@ export const macros: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Macro/Specter.jpg',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Macro/Specter.webp',
-		medium: 'macro',
+		medium: 'Photography',
 		price: '$100',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'macro'
 	},
 	{
 		id: '3',
@@ -42,10 +48,12 @@ export const macros: Artwork[] = [
 		image: 'https://zach-martis-images.s3.us-east-2.amazonaws.com/Macro/Do.jpg',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Macro/Do.webp',
-		medium: 'macro',
+		medium: 'Photography',
 		price: '$100',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'macro'
 	},
 	{
 		id: '4',
@@ -54,10 +62,12 @@ export const macros: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Macro/Obscuring+Brush.jpg',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Macro/Obscuring+Brush.webp',
-		medium: 'macro',
+		medium: 'Photography',
 		price: '$100',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'macro'
 	},
 	{
 		id: '5',
@@ -66,10 +76,12 @@ export const macros: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Macro/Enlightenment.jpg',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Macro/Enlightenment.webp',
-		medium: 'macro',
+		medium: 'Photography',
 		price: '$100',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'macro'
 	},
 	{
 		id: '6',
@@ -77,10 +89,12 @@ export const macros: Artwork[] = [
 		image: 'https://zach-martis-images.s3.us-east-2.amazonaws.com/Macro/WL.jpg',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Macro/WL.webp',
-		medium: 'macro',
+		medium: 'Photography',
 		price: '$100',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'macro'
 	},
 	{
 		id: '7',
@@ -89,10 +103,12 @@ export const macros: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Macro/Creep.jpg',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Macro/Creep.webp',
-		medium: 'macro',
+		medium: 'Photography',
 		price: '$100',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'macro'
 	},
 	{
 		id: '8',
@@ -101,10 +117,12 @@ export const macros: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Macro/Dolly+Zoom.jpg',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Macro/Dolly+Zoom.webp',
-		medium: 'macro',
+		medium: 'Photography',
 		price: '$100',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'macro'
 	},
 	{
 		id: '9',
@@ -113,10 +131,12 @@ export const macros: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Macro/Refraction.jpg',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Macro/Refraction.webp',
-		medium: 'macro',
+		medium: 'Photography',
 		price: '$100',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'macro'
 	},
 	{
 		id: '10',
@@ -125,10 +145,12 @@ export const macros: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Macro/Winds.jpg',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Macro/Winds.webp',
-		medium: 'macro',
+		medium: 'Photography',
 		price: '$100',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'macro'
 	},
 	{
 		id: '11',
@@ -137,10 +159,12 @@ export const macros: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Macro/Crashing+Wave.jpg',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Macro/Crashing+Wave.webp',
-		medium: 'macro',
+		medium: 'Photography',
 		price: '$100',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'macro'
 	},
 	{
 		id: '12',
@@ -149,10 +173,12 @@ export const macros: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Macro/Sai.jpg',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Macro/Sai.webp',
-		medium: 'macro',
+		medium: 'Photography',
 		price: '$100',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'macro'
 	},
 	{
 		id: '13',
@@ -161,10 +187,12 @@ export const macros: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Macro/Kiss.jpg',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Macro/Kiss.webp',
-		medium: 'macro',
+		medium: 'Photography',
 		price: '$100',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'macro'
 	},
 	{
 		id: '14',
@@ -173,10 +201,12 @@ export const macros: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Macro/Pressure+Waves.jpg',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Macro/Pressure+Waves.webp',
-		medium: 'macro',
+		medium: 'Photography',
 		price: '$100',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'macro'
 	},
 	{
 		id: '15',
@@ -185,10 +215,12 @@ export const macros: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Macro/de+Lorme.jpg',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Macro/de+Lorme.webp',
-		medium: 'macro',
+		medium: 'Photography',
 		price: '$100',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'macro'
 	},
 	{
 		id: '16',
@@ -197,10 +229,12 @@ export const macros: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Macro/Newtonian.jpg',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Macro/Newtonian.webp',
-		medium: 'macro',
+		medium: 'Photography',
 		price: '$100',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'macro'
 	},
 	{
 		id: '17',
@@ -209,10 +243,12 @@ export const macros: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Macro/No19.jpg',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Macro/No19.webp',
-		medium: 'macro',
+		medium: 'Photography',
 		price: '$100',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'macro'
 	},
 	{
 		id: '18',
@@ -221,10 +257,12 @@ export const macros: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Macro/No20.jpg',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Macro/No20.webp',
-		medium: 'macro',
+		medium: 'Photography',
 		price: '$100',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'macro'
 	},
 	{
 		id: '19',
@@ -233,10 +271,12 @@ export const macros: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Macro/No21.jpg',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Macro/No21.webp',
-		medium: 'macro',
+		medium: 'Photography',
 		price: '$100',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'macro'
 	},
 	{
 		id: '20',
@@ -245,10 +285,12 @@ export const macros: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Macro/No22.jpg',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Macro/No22.webp',
-		medium: 'macro',
+		medium: 'Photography',
 		price: '$100',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'macro'
 	},
 	{
 		id: '21',
@@ -257,10 +299,12 @@ export const macros: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Macro/No23.jpg',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Macro/No23.webp',
-		medium: 'macro',
+		medium: 'Photography',
 		price: '$100',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'macro'
 	},
 	{
 		id: '22',
@@ -269,10 +313,12 @@ export const macros: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Macro/No24.jpg',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Macro/No24.webp',
-		medium: 'macro',
+		medium: 'Photography',
 		price: '$100',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'macro'
 	},
 	{
 		id: '23',
@@ -281,9 +327,11 @@ export const macros: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Macro/No25.jpg',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Macro/No25.webp',
-		medium: 'macro',
+		medium: 'Photography',
 		price: '$100',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'macro'
 	}
 ];

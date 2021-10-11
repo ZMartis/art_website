@@ -7,10 +7,12 @@ export const pixelSorts: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/PixelSort/Creation.png',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/PixelSort/Creation.webp',
-		medium: 'pixelSort',
+		medium: 'Print on Aluminum',
 		price: '$800',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'pixelSort'
 	},
 	{
 		id: '1',
@@ -19,10 +21,12 @@ export const pixelSorts: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/PixelSort/Flourish.png',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/PixelSort/Flourish.webp',
-		medium: 'pixelSort',
+		medium: 'Print on Aluminum',
 		price: '$800',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'pixelSort'
 	},
 	{
 		id: '2',
@@ -31,10 +35,12 @@ export const pixelSorts: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/PixelSort/Decay.png',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/PixelSort/Decay.webp',
-		medium: 'pixelSort',
+		medium: 'Print on Aluminum',
 		price: '$800',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'pixelSort'
 	},
 	{
 		id: '3',
@@ -43,10 +49,12 @@ export const pixelSorts: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/PixelSort/Evelyn+McHale.png',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/PixelSort/Evelyn+McHale.webp',
-		medium: 'pixelSort',
+		medium: 'Print on Aluminum',
 		price: '$800',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'pixelSort'
 	},
 	{
 		id: '4',
@@ -55,10 +63,12 @@ export const pixelSorts: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/PixelSort/Falling+Water_0.png',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/PixelSort/Falling+Water.webp',
-		medium: 'pixelSort',
+		medium: 'Print on Aluminum',
 		price: '$800',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'pixelSort'
 	},
 	{
 		id: '5',
@@ -67,10 +77,12 @@ export const pixelSorts: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/PixelSort/Detonation.png',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/PixelSort/Detonation.webp',
-		medium: 'pixelSort',
+		medium: 'Print on Aluminum',
 		price: '$800',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'pixelSort'
 	},
 	{
 		id: '6',
@@ -79,10 +91,12 @@ export const pixelSorts: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/PixelSort/Pressure+Wave.png',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/PixelSort/Pressure+Wave.webp',
-		medium: 'pixelSort',
+		medium: 'Print on Aluminum',
 		price: '$800',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'pixelSort'
 	},
 	{
 		id: '7',
@@ -91,10 +105,12 @@ export const pixelSorts: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/PixelSort/Vacuum+Wind.png',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/PixelSort/Vacuum+Wind.webp',
-		medium: 'pixelSort',
+		medium: 'Print on Aluminum',
 		price: '$800',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'pixelSort'
 	},
 	{
 		id: '8',
@@ -103,10 +119,12 @@ export const pixelSorts: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/PixelSort/Aftermath.png',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/PixelSort/Aftermath.webp',
-		medium: 'pixelSort',
+		medium: 'Print on Aluminum',
 		price: '$800',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'pixelSort'
 	},
 	{
 		id: '9',
@@ -115,10 +133,12 @@ export const pixelSorts: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/PixelSort/Dove+of+War.png',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/PixelSort/Dove+of+War.webp',
-		medium: 'pixelSort',
+		medium: 'Print on Aluminum',
 		price: '$800',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'pixelSort'
 	},
 	{
 		id: '10',
@@ -127,10 +147,12 @@ export const pixelSorts: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/PixelSort/Chase.png',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/PixelSort/Chase.webp',
-		medium: 'pixelSort',
+		medium: 'Print on Aluminum',
 		price: '$800',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'pixelSort'
 	},
 	{
 		id: '11',
@@ -139,10 +161,12 @@ export const pixelSorts: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/PixelSort/Slice.png',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/PixelSort/Slice.webp',
-		medium: 'pixelSort',
+		medium: 'Print on Aluminum',
 		price: '$800',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'pixelSort'
 	},
 	{
 		id: '12',
@@ -151,10 +175,12 @@ export const pixelSorts: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/PixelSort/Low+Tide.png',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/PixelSort/Low+Tide.webp',
-		medium: 'pixelSort',
+		medium: 'Print on Aluminum',
 		price: '$800',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'pixelSort'
 	},
 	{
 		id: '13',
@@ -163,10 +189,12 @@ export const pixelSorts: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/PixelSort/Solitary.png',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/PixelSort/Solitary.webp',
-		medium: 'pixelSort',
+		medium: 'Print on Aluminum',
 		price: '$800',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'pixelSort'
 	},
 	{
 		id: '14',
@@ -175,10 +203,12 @@ export const pixelSorts: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/PixelSort/Patience.png',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/PixelSort/Patience.webp',
-		medium: 'pixelSort',
+		medium: 'Print on Aluminum',
 		price: '$800',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'pixelSort'
 	},
 	{
 		id: '15',
@@ -187,10 +217,12 @@ export const pixelSorts: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/PixelSort/Cosmic.png',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/PixelSort/Cosmic.webp',
-		medium: 'pixelSort',
+		medium: 'Print on Aluminum',
 		price: '$800',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'pixelSort'
 	},
 	{
 		id: '16',
@@ -199,10 +231,12 @@ export const pixelSorts: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/PixelSort/Desert+Rain.png',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/PixelSort/Desert+Rain.webp',
-		medium: 'pixelSort',
+		medium: 'Print on Aluminum',
 		price: '$800',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'pixelSort'
 	},
 	{
 		id: '17',
@@ -211,10 +245,12 @@ export const pixelSorts: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/PixelSort/Breaching.png',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/PixelSort/Breaching.webp',
-		medium: 'pixelSort',
+		medium: 'Print on Aluminum',
 		price: '$800',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'pixelSort'
 	},
 	{
 		id: '18',
@@ -223,10 +259,12 @@ export const pixelSorts: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/PixelSort/Dawn.png',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/PixelSort/Dawn.webp',
-		medium: 'pixelSort',
+		medium: 'Print on Aluminum',
 		price: '$800',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'pixelSort'
 	},
 	{
 		id: '19',
@@ -235,10 +273,12 @@ export const pixelSorts: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/PixelSort/High+Tide.png',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/PixelSort/High+Tide.webp',
-		medium: 'pixelSort',
+		medium: 'Print on Aluminum',
 		price: '$800',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'pixelSort'
 	},
 	{
 		id: '20',
@@ -247,10 +287,12 @@ export const pixelSorts: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/PixelSort/Coyote.png',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/PixelSort/Coyote.webp',
-		medium: 'pixelSort',
+		medium: 'Print on Aluminum',
 		price: '$800',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'pixelSort'
 	},
 	{
 		id: '21',
@@ -259,10 +301,12 @@ export const pixelSorts: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/PixelSort/Undertow.png',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/PixelSort/Undertow.webp',
-		medium: 'pixelSort',
+		medium: 'Print on Aluminum',
 		price: '$800',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'pixelSort'
 	},
 	{
 		id: '22',
@@ -271,10 +315,12 @@ export const pixelSorts: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/PixelSort/Thermophile.png',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/PixelSort/Thermophile.webp',
-		medium: 'pixelSort',
+		medium: 'Print on Aluminum',
 		price: '$800',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'pixelSort'
 	},
 	{
 		id: '23',
@@ -283,10 +329,12 @@ export const pixelSorts: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/PixelSort/Mountain+Stream.png',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/PixelSort/Mountain+Stream.webp',
-		medium: 'pixelSort',
+		medium: 'Print on Aluminum',
 		price: '$800',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'pixelSort'
 	},
 	{
 		id: '24',
@@ -295,9 +343,11 @@ export const pixelSorts: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/PixelSort/Resurrection.png',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/PixelSort/Resurrection.webp',
-		medium: 'pixelSort',
+		medium: 'Print on Aluminum',
 		price: '$800',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'pixelSort'
 	}
 ];
