@@ -37,8 +37,9 @@
 		? artwork.title + ' (' + artwork.subTitle + ')'
 		: artwork.title;
 
-	function mediumDescription() {
-		switch (artwork.medium) {
+	// TODO: Remove once artwork mediums are rewritten
+	function groupingDescription() {
+		switch (artwork.grouping) {
 			case 'canvas':
 				return 'Paint on canvas';
 			case 'macro':
@@ -52,7 +53,7 @@
 		}
 	}
 
-	const route = '/work/' + snakeCase(artwork.medium);
+	const route = '/work/' + snakeCase(artwork.grouping);
 </script>
 
 <div
@@ -60,7 +61,7 @@
 	out:fade={{ duration: 1000 }}
 	class="backButtonContainer"
 >
-	<BackButton {route} text={startCase(artwork.medium)} />
+	<BackButton {route} text={startCase(artwork.grouping)} />
 </div>
 <div class="pageContent">
 	<div
@@ -73,9 +74,9 @@
 			<h1>
 				<Title {artwork} />
 			</h1>
-			<p>{mediumDescription()} - {artwork.sold ? 'Sold' : artwork.price}</p>
+
+			<p>{artwork.medium} - {artwork.sold ? 'Sold' : artwork.price}</p>
 			<div class="buttonContainer">
-				<!-- TODO: Make Inquire button go somewhere -->
 				<a href={`/contact?inquiry=${artwork.title}`}>
 					<BaseButton disabled={artwork.sold}
 						>{artwork.sold ? 'Sold' : 'Inquire'}</BaseButton

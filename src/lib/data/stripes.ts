@@ -7,10 +7,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Ace.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Ace.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '1',
@@ -19,10 +21,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Alanis.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Alanis.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '2',
@@ -31,10 +35,12 @@ export const stripes: Artwork[] = [
 			"https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/All+That's+Left.webp",
 		smallImage:
 			"https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/All+That's+Left.webp",
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '3',
@@ -43,10 +49,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Askew.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Askew.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '4',
@@ -55,10 +63,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Bar.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Bar.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '5',
@@ -67,10 +77,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Beam.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Beam.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '6',
@@ -79,10 +91,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Bloom.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Bloom.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '7',
@@ -91,10 +105,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Blue+Sunset.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Blue+Sunset.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '8',
@@ -103,10 +119,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Born.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Born.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '9',
@@ -115,10 +133,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Chateau+Furbished.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Chateau+Furbished.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '10',
@@ -127,10 +147,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Chateau.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Chateau.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '11',
@@ -139,10 +161,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Circa.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Circa.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '12',
@@ -151,10 +175,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Consciousness.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Consciousness.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '13',
@@ -163,10 +189,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Desert+Edge.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Desert+Edge.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '14',
@@ -175,10 +203,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Devour.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Devour.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '15',
@@ -187,10 +217,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Discovery.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Discovery.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '16',
@@ -199,10 +231,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Distant+Shore.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Distant+Shore.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '17',
@@ -211,10 +245,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Edge.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Edge.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '18',
@@ -223,10 +259,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Fading+Light.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Fading+Light.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '19',
@@ -235,10 +273,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Final+Moment.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Final+Moment.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '20',
@@ -247,10 +287,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Float.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Float.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '21',
@@ -259,10 +301,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Florence.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Florence.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '22',
@@ -271,10 +315,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Flowers.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Flowers.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '23',
@@ -283,10 +329,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Forest+Clearing.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Forest+Clearing.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '24',
@@ -295,10 +343,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Garb.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Garb.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '25',
@@ -307,10 +357,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Garb+2.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Garb+2.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '26',
@@ -319,10 +371,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Grateful.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Grateful.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '27',
@@ -331,10 +385,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Haven.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Haven.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '28',
@@ -343,10 +399,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Homecoming.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Homecoming.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '29',
@@ -355,10 +413,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Horizon.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Horizon.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '30',
@@ -367,10 +427,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Islands.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Islands.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '31',
@@ -379,10 +441,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Ivan.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Ivan.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '32',
@@ -391,10 +455,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Kulilin.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Kulilin.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '33',
@@ -403,10 +469,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Lava+Pool.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Lava+Pool.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '34',
@@ -415,10 +483,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Lonely.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Lonely.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '35',
@@ -427,10 +497,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Looking+Back.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Looking+Back.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '36',
@@ -439,10 +511,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Looking+Back+2.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Looking+Back+2.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '37',
@@ -451,10 +525,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Lost+at+Sea.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Lost+at+Sea.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '38',
@@ -463,10 +539,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Melt.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Melt.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '39',
@@ -475,10 +553,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Midna.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Midna.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '40',
@@ -487,10 +567,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Milner.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Milner.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '41',
@@ -499,10 +581,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Mine.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Mine.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '42',
@@ -511,10 +595,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Morning+Light.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Morning+Light.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '43',
@@ -523,10 +609,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Neon+Hills.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Neon+Hills.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '44',
@@ -535,10 +623,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Oasis.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Oasis.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '45',
@@ -547,10 +637,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Pearl.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Pearl.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '46',
@@ -559,10 +651,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Perfect+Woman.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Perfect+Woman.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '47',
@@ -571,10 +665,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Presque-Vu.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Presque-Vu.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '48',
@@ -583,10 +679,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Prime.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Prime.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '49',
@@ -595,10 +693,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Radiation.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Radiation.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '50',
@@ -607,10 +707,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Reflection.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Reflection.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '51',
@@ -619,10 +721,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Relinquish.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Relinquish.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '52',
@@ -631,10 +735,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Rep.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Rep.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '53',
@@ -643,10 +749,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Rise.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Rise.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '54',
@@ -655,10 +763,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Scattered+Sunset.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Scattered+Sunset.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '55',
@@ -667,10 +777,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Set.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Set.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '56',
@@ -679,10 +791,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Shade.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Shade.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '57',
@@ -691,10 +805,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Shred.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Shred.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '58',
@@ -703,10 +819,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Sinful.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Sinful.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '59',
@@ -715,10 +833,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Sirenen.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Sirenen.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '60',
@@ -727,10 +847,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Sketch.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Sketch.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '61',
@@ -739,10 +861,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Split.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Split.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '62',
@@ -751,10 +875,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Splitting+Sea.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Splitting+Sea.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '63',
@@ -763,10 +889,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Steam.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Steam.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '64',
@@ -775,10 +903,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Steam+2.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Steam+2.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '65',
@@ -787,10 +917,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Sun+in+the+Sea.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Sun+in+the+Sea.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '66',
@@ -799,10 +931,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Surface.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Surface.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '67',
@@ -811,10 +945,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Surrender.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Surrender.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '68',
@@ -823,10 +959,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/The+Fishers.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/The+Fishers.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '69',
@@ -835,10 +973,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Tranquility.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Tranquility.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '70',
@@ -847,10 +987,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Tropic.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Tropic.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '71',
@@ -859,10 +1001,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Uncharted.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Uncharted.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '72',
@@ -871,10 +1015,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Venture.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Venture.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '73',
@@ -883,10 +1029,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Vertigo.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Vertigo.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '74',
@@ -895,10 +1043,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/View.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/View.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '75',
@@ -907,10 +1057,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Wave.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Wave.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '76',
@@ -919,10 +1071,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Wicked.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Wicked.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '77',
@@ -931,10 +1085,12 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Wishful.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Wishful.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	},
 	{
 		id: '78',
@@ -943,9 +1099,11 @@ export const stripes: Artwork[] = [
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Stripes/Woe.webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Stripes/Woe.webp',
-		medium: 'stripes',
+		medium: 'Print on Satin',
 		price: '$1200',
 		description: '',
-		sold: false
+		sold: false,
+		size: '',
+		grouping: 'stripes'
 	}
 ];

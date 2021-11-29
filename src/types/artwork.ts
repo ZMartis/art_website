@@ -5,8 +5,10 @@ export interface Artwork {
 	subTitle?: string;
 	image: string;
 	smallImage?: string;
-	medium: 'canvas' | 'paintOnPaper' | 'macro' | 'pixelSort' | 'stripes';
+	grouping: 'canvas' | 'paintOnPaper' | 'macro' | 'pixelSort' | 'stripes';
+	medium: string;
 	price: string;
 	description: string;
+	size: string;
 	sold: boolean;
 }
