@@ -3,5 +3,6 @@
 	import { canvases } from '$lib/data/canvases';
 </script>
 
-<p />
+<!-- TODO: Add a description. -->
+
 <ArtDisplay artworks={canvases} />

@@ -3,4 +3,6 @@
 	import { pixelSorts } from '$lib/data/pixel_sorts';
 </script>
 
+<!-- TODO: Add a description. -->
+
 <ArtDisplay artworks={pixelSorts} />

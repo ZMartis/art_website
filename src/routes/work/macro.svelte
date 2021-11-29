@@ -3,4 +3,6 @@
 	import { macros } from '$lib/data/macros';
 </script>
 
+<!-- TODO: Add a description. -->
+
 <ArtDisplay artworks={macros} />

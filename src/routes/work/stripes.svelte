@@ -3,4 +3,6 @@
 	import { stripes } from '$lib/data/stripes';
 </script>
 
+<!-- TODO: Add a description. -->
+
 <ArtDisplay artworks={stripes} />
