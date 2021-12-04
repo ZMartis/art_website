@@ -1,6 +1,6 @@
 <script lang="ts">
 	import NavItem from '$lib/components/header/nav_item.svelte';
-	const pages: string[] = ['work', 'about']; // TODO: Add 'contact' and 'shows' pages when they are completed
+	const pages: string[] = ['work', 'about', 'contact']; // TODO: Add 'shows' page when it's completed
 
 	export let navVisible = false;
 	export let toggleNav: Function;

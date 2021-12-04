@@ -1,8 +1,42 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import { fade } from 'svelte/transition';
+	import { goto } from '$app/navigation';
 	import BaseButton from '$lib/components/base/base_button.svelte';
 	$: inquiry = $page.query.get('inquiry');
+
+	let name = '';
+	let email = '';
+	$: subject = inquiry ? 'I would like to inquire about ' + inquiry : '';
+	let message = '';
+	let honeypot = '';
+
+	$: request = 'notStarted';
+
+	async function submit() {
+		request = 'inProgress';
+		if (honeypot === '') {
+			const response = await fetch('https://formspree.io/f/xdobnrnj', {
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json'
+				},
+				body: JSON.stringify({
+					response: {
+						email: email,
+						name: name,
+						subject: subject,
+						message: message
+					}
+				})
+			});
+			if (response) {
+				goto('/submitted');
+			} else {
+				request = 'failed';
+			}
+		}
+	}
 </script>
 
 <div
@@ -12,20 +46,28 @@
 >
 	<div class="card">
 		<h1>Contact</h1>
-		<form>
-			<input name="email" type="email" required />
-			<label for="email">Email</label>
-			<input name="name" type="text" required />
-			<label for="name">Name</label>
+		<form on:submit|preventDefault={submit}>
 			<input
-				name="subject"
 				type="text"
-				required
-				value={inquiry ? 'I would like to inquire about ' + inquiry : ''}
+				name="contact_me_by_fax_only"
+				tabindex="-1"
+				autocomplete="off"
+				bind:value={honeypot}
+				class="ohNoHoney"
 			/>
+			<input name="name" type="text" bind:value={name} required />
+			<label for="name">Name</label>
+			<input name="email" type="email" bind:value={email} required />
+			<label for="email">Email</label>
+			<input name="subject" type="text" required bind:value={subject} />
 			<label for="subject">Subject</label>
-			<textarea />
-			<BaseButton type={'submit'}>Send</BaseButton>
+			<textarea name="message" bind:value={message} />
+			<BaseButton type={'submit'} disabled={request === 'inProgress'}
+				>Send</BaseButton
+			>
+			{#if request === 'failed'}
+				<h2 class="error">Something went wrong. Please try again.</h2>
+			{/if}
 		</form>
 	</div>
 </div>
@@ -75,6 +117,18 @@
 		min-height: 250px;
 		margin-bottom: 1rem;
 		border: 1px solid black;
+	}
+
+	.ohNoHoney {
+		position: absolute;
+		left: -5000px;
+		height: 0;
+		width: 0;
+		z-index: -1;
+	}
+
+	.error {
+		color: var(--error-color);
 	}
 	@media (min-width: 768px) {
 		/* your tablet styles go here */
