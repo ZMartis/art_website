@@ -4,8 +4,6 @@
 	import Title from '$lib/components/title/index.svelte';
 	import { goto } from '$app/navigation';
 	import { replace } from 'lodash-es';
-	import { onMount } from 'svelte';
-	import { each } from 'svelte/internal';
 
 	export let artwork: Artwork;
 
@@ -22,16 +20,6 @@
 	function convertedTitle() {
 		return replace(replace(artwork.title, ' ', '_'), '.', '+');
 	}
-
-	onMount(() => {
-		// This is to get around devices that don't support CSS aspect-ratio
-		const elements = document.getElementsByName('productListingImageContainer');
-		each(
-			elements,
-			(element: HTMLElement) =>
-				(element.style.height = element.clientWidth + 'px')
-		);
-	});
 </script>
 
 <div
@@ -69,7 +57,9 @@
 
 <style>
 	.listingContainer {
-		width: 100%;
+		display: flex;
+		flex-direction: column;
+		flex: 1;
 		height: fit-content;
 	}
 	.listingContainer:hover {
