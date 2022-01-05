@@ -28,7 +28,7 @@
 	on:click={() => goto(`/artwork/${convertedTitle()}`)}
 	class="listingContainer"
 >
-	<div name="productListingImageContainer" class="imgContainer">
+	<div class="imgContainer">
 		<img src={image} alt={imageAlt} />
 		{#if overlayActive}
 			<div transition:fade={{ duration: 200 }} class="imageOverlay">
