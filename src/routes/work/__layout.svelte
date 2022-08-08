@@ -21,6 +21,9 @@
 		<a href="/work/stripes" class:selected={includes($page.path, 'stripes')}
 			>Stripes</a
 		>
+		<a href="/work/generated" class:selected={includes($page.path, 'generated')}
+			>Generated</a
+		>
 		<a
 			href="/work/pixel_sort"
 			class:selected={includes($page.path, 'pixel_sort')}>Pixel Sort</a

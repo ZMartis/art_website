@@ -1,4 +1,4 @@
-import type { Artwork } from 'src/types/artwork';
+import type { Artwork } from 'src/types/artwork'
 export const macros: Artwork[] = [
 	{
 		id: '0',
@@ -334,4 +334,4 @@ export const macros: Artwork[] = [
 		size: '',
 		grouping: 'macro'
 	}
-];
+]
