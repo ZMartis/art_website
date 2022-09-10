@@ -1,0 +1,1 @@
+export { default as component } from "../../../src/routes/work/paint_on_paper/+page.svelte";

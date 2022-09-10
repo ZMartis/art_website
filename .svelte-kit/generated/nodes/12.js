@@ -1,0 +1,1 @@
+export { default as component } from "../../../src/routes/work/pixel_sort/+page.svelte";

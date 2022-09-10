@@ -2,8 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Oswald&family=Raleway&family=Roboto&display=swap&family=Pridi&display=swap');
 
 :root {
-	font-family: 'Oswald', 'Lato', 'Roboto', 'Open Sans', 'Raleway', 'Pridi',
-		sans-serif;
+	font-family: 'Oswald', 'Lato', 'Roboto', 'Open Sans', 'Raleway', 'Pridi', sans-serif;
 	box-sizing: border-box;
 	--font-mono: 'Fira Mono', monospace;
 	--white: #ffffff;

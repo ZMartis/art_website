@@ -6,12 +6,8 @@
 	export let toggleNav: Function;
 </script>
 
-<a
-	href="/{link}"
-	class:active={$page.path === `/${link}`}
-	on:click={toggleNav()}
->
-	<span class:active={includes($page.path, `/${link}`)}>{display}</span>
+<a href="/{link}" class:active={$page.url.pathname === `/${link}`} on:click={toggleNav()}>
+	<span class:active={includes($page.url.pathname, `/${link}`)}>{display}</span>
 </a>
 
 <style>

@@ -8,9 +8,7 @@
 	export let artwork: Artwork;
 
 	const image = artwork.smallImage ? artwork.smallImage : artwork.image;
-	const imageAlt = artwork.subTitle
-		? artwork.title + ' (' + artwork.subTitle + ')'
-		: artwork.title;
+	const imageAlt = artwork.subTitle ? artwork.title + ' (' + artwork.subTitle + ')' : artwork.title;
 
 	let overlayActive = false;
 	function toggleOverlay() {
@@ -41,9 +39,8 @@
 			<Title {artwork} />
 		</h3>
 		<p>
-			{#if artwork.description}{artwork.description}{:else}Haven't written a
-				description for {artwork.title}. Should probably do that at some point.
-				¯\_(ツ)_/¯{/if}
+			{#if artwork.description}{artwork.description}{:else}Haven't written a description for {artwork.title}.
+				Should probably do that at some point. ¯\_(ツ)_/¯{/if}
 		</p>
 		{#if overlayActive}
 			<div transition:fade={{ duration: 200 }} class="contentOverlay">
