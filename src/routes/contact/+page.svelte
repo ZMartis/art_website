@@ -3,7 +3,7 @@
 	import { fade } from 'svelte/transition';
 	import { goto } from '$app/navigation';
 	import BaseButton from '$lib/components/base/base_button.svelte';
-	$: inquiry = $page.query.get('inquiry');
+	$: inquiry = $page.url.searchParams.get('inquiry');
 
 	let name = '';
 	let email = '';

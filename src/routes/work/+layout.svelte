@@ -11,21 +11,24 @@
 	class="pageContainer"
 >
 	<div class="navigation">
-		<a href="/work/canvas" class:selected={includes($page.path, 'canvas')}
-			>Canvas</a
+		<a
+			href="/work/canvas"
+			class:selected={includes($page.url.pathname, 'canvas')}>Canvas</a
 		>
 		<a
 			href="/work/paint_on_paper"
-			class:selected={includes($page.path, 'paint_on_paper')}>Paint on Paper</a
+			class:selected={includes($page.url.pathname, 'paint_on_paper')}
+			>Paint on Paper</a
 		>
-		<a href="/work/stripes" class:selected={includes($page.path, 'stripes')}
-			>Stripes</a
+		<a
+			href="/work/stripes"
+			class:selected={includes($page.url.pathname, 'stripes')}>Stripes</a
 		>
 		<a
 			href="/work/pixel_sort"
-			class:selected={includes($page.path, 'pixel_sort')}>Pixel Sort</a
+			class:selected={includes($page.url.pathname, 'pixel_sort')}>Pixel Sort</a
 		>
-		<a href="/work/macro" class:selected={includes($page.path, 'macro')}
+		<a href="/work/macro" class:selected={includes($page.url.pathname, 'macro')}
 			>Macro</a
 		>
 	</div>

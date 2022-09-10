@@ -10,7 +10,7 @@
 		navVisible = !navVisible;
 	}
 
-	$: logo = $page.path === '/' ? greenLogo : blackLogo;
+	$: logo = $page.url.pathname === '/' ? greenLogo : blackLogo;
 </script>
 
 <header>

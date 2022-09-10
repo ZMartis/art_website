@@ -8,10 +8,10 @@
 
 <a
 	href="/{link}"
-	class:active={$page.path === `/${link}`}
+	class:active={$page.url.pathname === `/${link}`}
 	on:click={toggleNav()}
 >
-	<span class:active={includes($page.path, `/${link}`)}>{display}</span>
+	<span class:active={includes($page.url.pathname, `/${link}`)}>{display}</span>
 </a>
 
 <style>
