@@ -1,34 +1,34 @@
 <script lang="ts">
-	import { fly } from 'svelte/transition';
-	import { macros } from '$lib/data/macros';
-	import { canvases } from '$lib/data/canvases';
-	import { paintOnPapers } from '$lib/data/paint_on_papers';
-	import { pixelSorts } from '$lib/data/pixel_sorts';
-	import { stripes } from '$lib/data/stripes';
-	import { replace, shuffle, xor } from 'lodash-es';
-	import { goto } from '$app/navigation';
-	export const prerender = true;
+	import { fly } from 'svelte/transition'
+	import { macros } from '$lib/data/macros'
+	import { canvases } from '$lib/data/canvases'
+	import { paintOnPapers } from '$lib/data/paint_on_papers'
+	import { pixelSorts } from '$lib/data/pixel_sorts'
+	import { stripes } from '$lib/data/stripes'
+	import { replace, shuffle, xor } from 'lodash-es'
+	import { goto } from '$app/navigation'
+	export const prerender = true
 
-	const allArtworks = shuffle(xor(macros, canvases, paintOnPapers, pixelSorts, stripes));
+	const allArtworks = shuffle(xor(macros, canvases, paintOnPapers, pixelSorts, stripes))
 
-	let activeArtwork = -1;
-	let slideshowActive = false;
+	let activeArtwork = -1
+	let slideshowActive = false
 
-	setTimeout(() => (slideshowActive = true), 500);
-	slideshow();
+	setTimeout(() => (slideshowActive = true), 500)
+	slideshow()
 
 	function convertedTitle(title: string) {
-		return replace(replace(title, ' ', '_'), '.', '+');
+		return replace(replace(title, ' ', '_'), '.', '+')
 	}
 
-	$: route = `/artwork/${convertedTitle(allArtworks[activeArtwork].title)}`;
+	$: route = `/artwork/${convertedTitle(allArtworks[activeArtwork].title)}`
 
 	function slideshow() {
-		activeArtwork++;
+		activeArtwork++
 		if (activeArtwork >= allArtworks.length) {
-			activeArtwork = 0;
+			activeArtwork = 0
 		}
-		setTimeout(slideshow, 10000);
+		setTimeout(slideshow, 10000)
 	}
 </script>
 
@@ -37,7 +37,7 @@
 		<div in:fly={{ duration: 1001, x: 50, delay: 1000 }} out:fly={{ duration: 1000, x: -50 }}>
 			<img
 				on:click={() => {
-					goto(route);
+					goto(route)
 				}}
 				src={allArtworks[activeArtwork].smallImage}
 				alt={allArtworks[activeArtwork].title}
