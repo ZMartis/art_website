@@ -2,7 +2,6 @@
 	import type { Artwork } from 'src/types/artwork'
 	import { fade } from 'svelte/transition'
 	import Title from '$lib/components/title/index.svelte'
-	import { goto } from '$app/navigation'
 	import { replace } from 'lodash-es'
 
 	export let artwork: Artwork
@@ -20,10 +19,10 @@
 	}
 </script>
 
-<div
+<a
+	href={`/artwork/${convertedTitle()}`}
 	on:mouseenter={toggleOverlay}
 	on:mouseleave={toggleOverlay}
-	on:click={() => goto(`/artwork/${convertedTitle()}`)}
 	class="listingContainer"
 >
 	<div class="imgContainer">
@@ -50,7 +49,7 @@
 			</div>
 		{/if}
 	</div>
-</div>
+</a>
 
 <style>
 	.listingContainer {

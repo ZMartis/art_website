@@ -6,7 +6,6 @@
 	import { pixelSorts } from '$lib/data/pixel_sorts'
 	import { stripes } from '$lib/data/stripes'
 	import { replace, shuffle, xor } from 'lodash-es'
-	import { goto } from '$app/navigation'
 	export const prerender = true
 
 	const allArtworks = shuffle(xor(macros, canvases, paintOnPapers, pixelSorts, stripes))
@@ -35,13 +34,9 @@
 {#if slideshowActive}
 	{#key activeArtwork}
 		<div in:fly={{ duration: 1001, x: 50, delay: 1000 }} out:fly={{ duration: 1000, x: -50 }}>
-			<img
-				on:click={() => {
-					goto(route)
-				}}
-				src={allArtworks[activeArtwork].smallImage}
-				alt={allArtworks[activeArtwork].title}
-			/>
+			<a href={route}>
+				<img src={allArtworks[activeArtwork].smallImage} alt={allArtworks[activeArtwork].title} />
+			</a>
 		</div>
 	{/key}
 {/if}
@@ -52,11 +47,13 @@
 		display: flex;
 		justify-content: center;
 	}
+	a {
+		margin-top: 5%;
+	}
 	img {
 		max-height: 70vh;
 		max-width: 100%;
 		object-fit: contain;
-		margin-top: 5%;
 		box-shadow: 20px 18px 37px 1px rgba(0, 0, 0, 0.15);
 		cursor: pointer;
 	}

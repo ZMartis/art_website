@@ -1,6 +1,4 @@
 <script lang="ts">
-	import { goto } from '$app/navigation'
-
 	import { fade } from 'svelte/transition'
 
 	export let route: string
@@ -10,41 +8,41 @@
 	let textVisible = false
 </script>
 
-<div class="backButtonContainer">
-	<div
-		class="backButton"
-		on:mouseenter={() => {
-			textVisible = true
-		}}
-		on:mouseleave={() => {
-			textVisible = false
-		}}
-		on:click={() => goto(route)}
-	>
-		<div class="triangle" />
-	</div>
-	{#if textVisible}
+<a href={route}>
+	<div class="backButtonContainer">
 		<div
-			class="hoverBackButton"
+			class="backButton"
 			on:mouseenter={() => {
 				textVisible = true
 			}}
 			on:mouseleave={() => {
 				textVisible = false
 			}}
-			on:click={() => goto(route)}
-			transition:fade={{ duration: 350 }}
 		>
-			<div class="hoverTriangle" style={textVisible ? 'border-right-color: #fff' : ''} />
+			<div class="triangle" />
 		</div>
-	{/if}
-	<p class="onlyOnMobile">{text ? text : 'Back'}</p>
-	{#if textVisible}
-		<p class="notOnMobile" transition:fade={{ duration: 350 }}>
-			{text ? text : 'Back'}
-		</p>
-	{/if}
-</div>
+		{#if textVisible}
+			<div
+				class="hoverBackButton"
+				on:mouseenter={() => {
+					textVisible = true
+				}}
+				on:mouseleave={() => {
+					textVisible = false
+				}}
+				transition:fade={{ duration: 350 }}
+			>
+				<div class="hoverTriangle" style={textVisible ? 'border-right-color: #fff' : ''} />
+			</div>
+		{/if}
+		<p class="onlyOnMobile">{text ? text : 'Back'}</p>
+		{#if textVisible}
+			<p class="notOnMobile" transition:fade={{ duration: 350 }}>
+				{text ? text : 'Back'}
+			</p>
+		{/if}
+	</div>
+</a>
 
 <style>
 	/* your mobile styles go here */
