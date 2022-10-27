@@ -3,7 +3,6 @@
 	import { fade } from 'svelte/transition'
 	import { goto } from '$app/navigation'
 	import BaseButton from '$lib/components/base/base_button.svelte'
-	export const prerender = false
 
 	$: inquiry = $page.url.searchParams.get('inquiry')
 
