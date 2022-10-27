@@ -31,7 +31,6 @@ declare module '$env/static/private' {
 	export const GIT_ASKPASS: string;
 	export const npm_node_execpath: string;
 	export const SHLVL: string;
-	export const WT_PROFILE_ID: string;
 	export const npm_config_noproxy: string;
 	export const HOME: string;
 	export const ASDF_DIR: string;
@@ -57,7 +56,6 @@ declare module '$env/static/private' {
 	export const PATH: string;
 	export const NODE: string;
 	export const npm_package_name: string;
-	export const WT_SESSION: string;
 	export const LANG: string;
 	export const VSCODE_GIT_IPC_HANDLE: string;
 	export const TERM_PROGRAM: string;
@@ -77,6 +75,7 @@ declare module '$env/static/private' {
 	export const WSLENV: string;
 	export const INIT_CWD: string;
 	export const EDITOR: string;
+	export const NODE_ENV: string;
 }
 
 /**
@@ -111,7 +110,6 @@ declare module '$env/dynamic/private' {
 		GIT_ASKPASS: string;
 		npm_node_execpath: string;
 		SHLVL: string;
-		WT_PROFILE_ID: string;
 		npm_config_noproxy: string;
 		HOME: string;
 		ASDF_DIR: string;
@@ -137,7 +135,6 @@ declare module '$env/dynamic/private' {
 		PATH: string;
 		NODE: string;
 		npm_package_name: string;
-		WT_SESSION: string;
 		LANG: string;
 		VSCODE_GIT_IPC_HANDLE: string;
 		TERM_PROGRAM: string;
@@ -157,6 +154,7 @@ declare module '$env/dynamic/private' {
 		WSLENV: string;
 		INIT_CWD: string;
 		EDITOR: string;
+		NODE_ENV: string;
 		[key: string]: string | undefined;
 	}
 }

@@ -1,9 +1,9 @@
 <script lang="ts">
-	import ProductListing from '$lib/components/art_display/product_listing.svelte';
-	import type { Artwork } from 'src/types/artwork';
-	import { fade } from 'svelte/transition';
+	import ProductListing from '$lib/components/art_display/product_listing.svelte'
+	import type { Artwork } from 'src/types/artwork'
+	import { fade } from 'svelte/transition'
 
-	export let artworks: Artwork[];
+	export let artworks: Artwork[]
 </script>
 
 <div in:fade={{ duration: 1000, delay: 1100 }} out:fade={{ duration: 1000 }}>

@@ -1,46 +1,47 @@
 <script lang="ts">
-	import { page } from '$app/stores';
-	import { canvases } from '$lib/data/canvases';
-	import { macros } from '$lib/data/macros';
-	import { paintOnPapers } from '$lib/data/paint_on_papers';
-	import { pixelSorts } from '$lib/data/pixel_sorts';
-	import { stripes } from '$lib/data/stripes';
-	import { find, replace, snakeCase, startCase, toLower, union } from 'lodash-es';
-	import Title from '$lib/components/title/index.svelte';
-	import BaseButton from '$lib/components/base/base_button.svelte';
-	import BackButton from '$lib/components/back_button/index.svelte';
-	import { fade } from 'svelte/transition';
+	import { page } from '$app/stores'
+	import { canvases } from '$lib/data/canvases'
+	import { macros } from '$lib/data/macros'
+	import { paintOnPapers } from '$lib/data/paint_on_papers'
+	import { pixelSorts } from '$lib/data/pixel_sorts'
+	import { stripes } from '$lib/data/stripes'
+	import { find, replace, snakeCase, startCase, toLower, union } from 'lodash-es'
+	import Title from '$lib/components/title/index.svelte'
+	import BaseButton from '$lib/components/base/base_button.svelte'
+	import BackButton from '$lib/components/back_button/index.svelte'
+	import { fade } from 'svelte/transition'
+	import type { Artwork } from 'src/types/artwork'
 
-	const allArtwork = union(canvases, macros, paintOnPapers, pixelSorts, stripes);
+	const allArtwork = union(canvases, macros, paintOnPapers, pixelSorts, stripes)
 	function convertRoute() {
-		return replace(replace($page.params.title, '_', ' '), '+', '.');
+		return replace(replace($page.params.title, '_', ' '), '+', '.')
 	}
 	const artwork = find(allArtwork, (artwork) => {
-		return toLower(artwork.title) === toLower(convertRoute());
-	});
+		return toLower(artwork.title) === toLower(convertRoute())
+	}) as Artwork
 
-	const image = artwork?.smallImage;
+	const image = artwork?.smallImage
 	const imageAlt = artwork?.subTitle
 		? artwork?.title + ' (' + artwork?.subTitle + ')'
-		: artwork?.title;
+		: artwork?.title
 
 	// TODO: Remove once artwork mediums are rewritten
 	function groupingDescription() {
 		switch (artwork?.grouping) {
 			case 'canvas':
-				return 'Paint on canvas';
+				return 'Paint on canvas'
 			case 'macro':
-				return 'Macro photograph of paint';
+				return 'Macro photograph of paint'
 			case 'paintOnPaper':
-				return 'Paint on paper';
+				return 'Paint on paper'
 			case 'pixelSort':
-				return 'Digitally sorted image';
+				return 'Digitally sorted image'
 			case 'stripes':
-				return 'Photo manipulation on satin';
+				return 'Photo manipulation on satin'
 		}
 	}
 
-	const route = '/work/' + snakeCase(artwork?.grouping);
+	const route = '/work/' + snakeCase(artwork?.grouping)
 </script>
 
 <div

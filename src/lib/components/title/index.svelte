@@ -1,7 +1,7 @@
 <script lang="ts">
-	import type { Artwork } from 'src/types/artwork';
+	import type { Artwork } from 'src/types/artwork'
 
-	export let artwork: Artwork;
+	export let artwork: Artwork
 </script>
 
 {#if artwork.number}{artwork.number}. {/if}{artwork.title}

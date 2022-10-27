@@ -1,16 +1,16 @@
 <script lang="ts">
-	import { page } from '$app/stores';
-	import Nav from '$lib/components/header/nav.svelte';
-	import MenuButton from '$lib/components/header/menu_button.svelte';
-	import greenLogo from '$lib/images/z_logo_green.svg';
-	import blackLogo from '$lib/images/z_logo_black.svg';
+	import { page } from '$app/stores'
+	import Nav from '$lib/components/header/nav.svelte'
+	import MenuButton from '$lib/components/header/menu_button.svelte'
+	import greenLogo from '$lib/images/z_logo_green.svg'
+	import blackLogo from '$lib/images/z_logo_black.svg'
 
-	let navVisible = false;
+	let navVisible = false
 	function toggleNav() {
-		navVisible = !navVisible;
+		navVisible = !navVisible
 	}
 
-	$: logo = $page.url.pathname === '/' ? greenLogo : blackLogo;
+	$: logo = $page.url.pathname === '/' ? greenLogo : blackLogo
 </script>
 
 <header>

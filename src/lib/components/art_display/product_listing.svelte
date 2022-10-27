@@ -1,22 +1,22 @@
 <script lang="ts">
-	import type { Artwork } from 'src/types/artwork';
-	import { fade } from 'svelte/transition';
-	import Title from '$lib/components/title/index.svelte';
-	import { goto } from '$app/navigation';
-	import { replace } from 'lodash-es';
+	import type { Artwork } from 'src/types/artwork'
+	import { fade } from 'svelte/transition'
+	import Title from '$lib/components/title/index.svelte'
+	import { goto } from '$app/navigation'
+	import { replace } from 'lodash-es'
 
-	export let artwork: Artwork;
+	export let artwork: Artwork
 
-	const image = artwork.smallImage ? artwork.smallImage : artwork.image;
-	const imageAlt = artwork.subTitle ? artwork.title + ' (' + artwork.subTitle + ')' : artwork.title;
+	const image = artwork.smallImage ? artwork.smallImage : artwork.image
+	const imageAlt = artwork.subTitle ? artwork.title + ' (' + artwork.subTitle + ')' : artwork.title
 
-	let overlayActive = false;
+	let overlayActive = false
 	function toggleOverlay() {
-		overlayActive = !overlayActive;
+		overlayActive = !overlayActive
 	}
 
 	function convertedTitle() {
-		return replace(replace(artwork.title, ' ', '_'), '.', '+');
+		return replace(replace(artwork.title, ' ', '_'), '.', '+')
 	}
 </script>
 

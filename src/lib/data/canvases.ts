@@ -1,4 +1,4 @@
-import type { Artwork } from 'src/types/artwork';
+import type { Artwork } from 'src/types/artwork'
 
 export const canvases: Artwork[] = [
 	{
@@ -38,8 +38,7 @@ export const canvases: Artwork[] = [
 		number: 8,
 		title: 'Oxygen',
 		subTitle: 'Cove',
-		image:
-			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/8.+Oxygen+(Cove).webp',
+		image: 'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/8.+Oxygen+(Cove).webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Canvas/8.+Oxygen+(Cove).webp',
 		medium: 'Acrylic on Canvas',
@@ -54,8 +53,7 @@ export const canvases: Artwork[] = [
 		number: 10,
 		title: 'Neon',
 		subTitle: 'Jetty',
-		image:
-			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/10.+Neon+(Jetty).webp',
+		image: 'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/10.+Neon+(Jetty).webp',
 
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Canvas/10.+Neon+(Jetty).webp',
@@ -87,8 +85,7 @@ export const canvases: Artwork[] = [
 		number: 17,
 		title: 'Chlorine',
 		subTitle: 'Beach',
-		image:
-			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/17.+Chlorine+(Beach).webp',
+		image: 'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/17.+Chlorine+(Beach).webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Canvas/17.+Chlorine+(Beach).webp',
 		medium: 'Acrylic on Canvas',
@@ -103,8 +100,7 @@ export const canvases: Artwork[] = [
 		number: 18,
 		title: 'Argon',
 		subTitle: 'Falls',
-		image:
-			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/18.+Argon+(Falls).webp',
+		image: 'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/18.+Argon+(Falls).webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Canvas/18.+Argon+(Falls).webp',
 		medium: 'Oil on Canvas',
@@ -183,8 +179,7 @@ export const canvases: Artwork[] = [
 		number: 27,
 		title: 'Cobalt',
 		subTitle: 'Ocean',
-		image:
-			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/27.+Cobalt+(Ocean).webp',
+		image: 'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/27.+Cobalt+(Ocean).webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Canvas/27.+Cobalt+(Ocean).webp',
 		medium: 'Acrylic on Canvas',
@@ -199,8 +194,7 @@ export const canvases: Artwork[] = [
 		number: 33,
 		title: 'Arsenic',
 		subTitle: 'Sail',
-		image:
-			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/33.+Arsenic+(Sail).webp',
+		image: 'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/33.+Arsenic+(Sail).webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Canvas/33.+Arsenic+(Sail).webp',
 		medium: 'Acrylic on Canvas',
@@ -359,8 +353,7 @@ export const canvases: Artwork[] = [
 		number: 79,
 		title: 'Gold',
 		subTitle: 'Faces',
-		image:
-			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/79.+Gold+(Faces).webp',
+		image: 'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/79.+Gold+(Faces).webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Canvas/79.+Gold+(Faces).webp',
 		medium: 'Acrylic on Canvas',
@@ -375,8 +368,7 @@ export const canvases: Artwork[] = [
 		number: 80,
 		title: 'Mercury',
 		subTitle: 'Woman',
-		image:
-			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/80.+Mercury+(Woman).webp',
+		image: 'https://zach-martis-images.s3.us-east-2.amazonaws.com/Canvas/80.+Mercury+(Woman).webp',
 		smallImage:
 			'https://zach-martis-images.s3.us-east-2.amazonaws.com/Small+Images/Canvas/80.+Mercury+(Woman).webp',
 		medium: 'Acrylic on Canvas',
@@ -546,4 +538,4 @@ export const canvases: Artwork[] = [
 		size: '',
 		grouping: 'canvas'
 	}
-];
+]

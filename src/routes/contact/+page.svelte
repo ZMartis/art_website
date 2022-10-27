@@ -1,20 +1,20 @@
 <script lang="ts">
-	import { page } from '$app/stores';
-	import { fade } from 'svelte/transition';
-	import { goto } from '$app/navigation';
-	import BaseButton from '$lib/components/base/base_button.svelte';
-	$: inquiry = $page.url.searchParams.get('inquiry');
+	import { page } from '$app/stores'
+	import { fade } from 'svelte/transition'
+	import { goto } from '$app/navigation'
+	import BaseButton from '$lib/components/base/base_button.svelte'
+	$: inquiry = $page.url.searchParams.get('inquiry')
 
-	let name = '';
-	let email = '';
-	$: subject = inquiry ? 'I would like to inquire about ' + inquiry : '';
-	let message = '';
-	let honeypot = '';
+	let name = ''
+	let email = ''
+	$: subject = inquiry ? 'I would like to inquire about ' + inquiry : ''
+	let message = ''
+	let honeypot = ''
 
-	$: request = 'notStarted';
+	$: request = 'notStarted'
 
 	async function submit() {
-		request = 'inProgress';
+		request = 'inProgress'
 		if (honeypot === '') {
 			const response = await fetch('https://formspree.io/f/xdobnrnj', {
 				method: 'POST',
@@ -29,11 +29,11 @@
 						message: message
 					}
 				})
-			});
+			})
 			if (response) {
-				goto('/submitted');
+				goto('/submitted')
 			} else {
-				request = 'failed';
+				request = 'failed'
 			}
 		}
 	}

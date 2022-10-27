@@ -1,23 +1,23 @@
 <script lang="ts">
-	import { goto } from '$app/navigation';
+	import { goto } from '$app/navigation'
 
-	import { fade } from 'svelte/transition';
+	import { fade } from 'svelte/transition'
 
-	export let route: string;
-	export let text: string;
+	export let route: string
+	export let text: string
 
-	const content = '<';
-	let textVisible = false;
+	const content = '<'
+	let textVisible = false
 </script>
 
 <div class="backButtonContainer">
 	<div
 		class="backButton"
 		on:mouseenter={() => {
-			textVisible = true;
+			textVisible = true
 		}}
 		on:mouseleave={() => {
-			textVisible = false;
+			textVisible = false
 		}}
 		on:click={() => goto(route)}
 	>
@@ -27,18 +27,15 @@
 		<div
 			class="hoverBackButton"
 			on:mouseenter={() => {
-				textVisible = true;
+				textVisible = true
 			}}
 			on:mouseleave={() => {
-				textVisible = false;
+				textVisible = false
 			}}
 			on:click={() => goto(route)}
 			transition:fade={{ duration: 350 }}
 		>
-			<div
-				class="hoverTriangle"
-				style={textVisible ? 'border-right-color: #fff' : ''}
-			/>
+			<div class="hoverTriangle" style={textVisible ? 'border-right-color: #fff' : ''} />
 		</div>
 	{/if}
 	<p class="onlyOnMobile">{text ? text : 'Back'}</p>

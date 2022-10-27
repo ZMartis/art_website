@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { fade } from 'svelte/transition';
+	import { fade } from 'svelte/transition'
 </script>
 
 <div in:fade={{ duration: 1000, delay: 1001 }} out:fade={{ duration: 1000 }} class="container">

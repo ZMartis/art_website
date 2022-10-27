@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { fade } from 'svelte/transition';
-	import BaseButton from '$lib/components/base/base_button.svelte';
+	import { fade } from 'svelte/transition'
+	import BaseButton from '$lib/components/base/base_button.svelte'
 </script>
 
 <div in:fade={{ duration: 1000, delay: 1001 }} out:fade={{ duration: 1000 }} class="container">

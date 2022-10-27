@@ -1,9 +1,9 @@
 <script lang="ts">
-	import { page } from '$app/stores';
-	import { capitalize, includes } from 'lodash-es';
-	export let link: string;
-	const display = capitalize(link);
-	export let toggleNav: Function;
+	import { page } from '$app/stores'
+	import { capitalize, includes } from 'lodash-es'
+	export let link: string
+	const display = capitalize(link)
+	export let toggleNav: Function
 </script>
 
 <a href="/{link}" class:active={$page.url.pathname === `/${link}`} on:click={toggleNav()}>
