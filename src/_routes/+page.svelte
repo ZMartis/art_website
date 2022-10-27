@@ -7,6 +7,7 @@
 	import { stripes } from '$lib/data/stripes'
 	import { replace, shuffle, xor } from 'lodash-es'
 	import { goto } from '$app/navigation'
+	export const prerender = true
 
 	const allArtworks = shuffle(xor(macros, canvases, paintOnPapers, pixelSorts, stripes))
 

@@ -10,6 +10,9 @@
 	</main>
 </div>
 
+<!-- Not sure I need the footer -->
+
+<!-- <footer /> -->
 <style>
 	div {
 		height: 100vh;
