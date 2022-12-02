@@ -1,3 +1,3 @@
 # My website code
 
-repo for [zach-martis.com](zach-martis.com)
+repo for [zach-martis.com](https://zach-martis.com)
