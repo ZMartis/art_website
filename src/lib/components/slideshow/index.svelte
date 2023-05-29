@@ -50,7 +50,6 @@
 		display: grid;
 		width: 100%;
 		height: 70vh;
-		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
 	}
