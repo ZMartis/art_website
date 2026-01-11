@@ -12,8 +12,8 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
-		"@sveltejs/adapter-netlify": "^2.0.8",
-		"@sveltejs/kit": "^1.19.0",
+		"@sveltejs/adapter-netlify": "^5.2.4",
+		"@sveltejs/kit": "^2.49.4",
 		"@types/cookie": "^0.5.1",
 		"@typescript-eslint/eslint-plugin": "^5.27.0",
 		"@typescript-eslint/parser": "^5.27.0",
