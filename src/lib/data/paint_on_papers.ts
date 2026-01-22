@@ -1,4 +1,4 @@
-import type { Artwork } from 'src/types/artwork'
+import type { Artwork } from '$lib/types/artwork'
 export const paintOnPapers: Artwork[] = [
 	{
 		id: '0',
