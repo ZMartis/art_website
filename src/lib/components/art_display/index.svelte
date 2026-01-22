@@ -1,6 +1,6 @@
 <script lang="ts">
 	import ProductListing from '$lib/components/art_display/product_listing.svelte'
-	import type { Artwork } from 'src/types/artwork'
+	import type { Artwork } from '$lib/types/artwork'
 	import { fade } from 'svelte/transition'
 
 	export let artworks: Artwork[]

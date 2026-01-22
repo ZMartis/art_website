@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { Artwork } from 'src/types/artwork'
+	import type { Artwork } from '$lib/types/artwork'
 	import { fade } from 'svelte/transition'
 	import Title from '$lib/components/title/index.svelte'
 	import { replace } from 'lodash-es'

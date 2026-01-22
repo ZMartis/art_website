@@ -10,13 +10,13 @@
 	import BaseButton from '$lib/components/base/base_button.svelte'
 	import BackButton from '$lib/components/back_button/index.svelte'
 	import { fade } from 'svelte/transition'
-	import type { Artwork } from 'src/types/artwork'
+	import type { Artwork } from '$lib/types/artwork'
 
-	const allArtwork = union(canvases, macros, paintOnPapers, pixelSorts, stripes)
+	const allArtwork: Artwork[] = union(canvases, macros, paintOnPapers, pixelSorts, stripes)
 	function convertRoute() {
-		return replace(replace($page.params.title, '_', ' '), '+', '.')
+		return replace(replace($page.params.title ?? '', '_', ' '), '+', '.')
 	}
-	const artwork = find(allArtwork, (artwork) => {
+	const artwork: Artwork = find(allArtwork, (artwork: Artwork) => {
 		return toLower(artwork.title) === toLower(convertRoute())
 	}) as Artwork
 

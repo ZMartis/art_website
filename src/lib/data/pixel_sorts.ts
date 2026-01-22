@@ -1,4 +1,4 @@
-import type { Artwork } from 'src/types/artwork'
+import type { Artwork } from '$lib/types/artwork'
 export const pixelSorts: Artwork[] = [
 	{
 		id: '0',
