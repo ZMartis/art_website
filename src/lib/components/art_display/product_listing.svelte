@@ -2,6 +2,7 @@
 	import type { Artwork } from '$lib/types/artwork'
 	import { fade } from 'svelte/transition'
 	import Title from '$lib/components/title/index.svelte'
+	import Subtitle from '$lib/components/subtitle/index.svelte'
 	import { replace } from 'lodash-es'
 
 	export let artwork: Artwork
@@ -34,13 +35,12 @@
 		{/if}
 	</div>
 	<div class="contentContainer">
-		<h3>
+		<h3 class="title">
 			<Title {artwork} />
 		</h3>
-		<p>
-			{#if artwork.description}{artwork.description}{:else}Haven't written a description for {artwork.title}.
-				Should probably do that at some point. ¯\_(ツ)_/¯{/if}
-		</p>
+		{#if artwork.subTitle}
+			<h3 class="subTitle"><Subtitle text={artwork.subTitle} /></h3>
+		{/if}
 		{#if overlayActive}
 			<div transition:fade={{ duration: 200 }} class="contentOverlay">
 				<h1>
@@ -57,6 +57,8 @@
 		flex-direction: column;
 		flex: 1;
 		height: fit-content;
+		height: 100%;
+		width: 100%;
 	}
 	.listingContainer:hover {
 		background-color: var(--primary-color);
@@ -97,23 +99,18 @@
 		border: 0.2rem solid var(--primary-color);
 	}
 	.contentContainer {
-		padding: 0 0.4rem 0.2rem;
+		padding: 0.6rem 0.6rem 0.8rem;
 		border: 1px solid black;
 		border-top: 0.01px solid transparent;
 		position: relative;
+		flex: 1;
 	}
-	h3 {
-		margin: 0.4rem 0 0;
+	.title {
+		margin: 0;
 		width: fit-content;
 	}
-	p {
-		margin: 0.4rem 0 0;
-		font-size: 0.7rem;
-		overflow: hidden;
-		display: -webkit-box;
-		text-overflow: ellipsis;
-		-webkit-box-orient: vertical;
-		-webkit-line-clamp: 1;
+	.subTitle {
+		margin: 0.2rem 0 0;
 	}
 	.contentOverlay {
 		width: 100%;

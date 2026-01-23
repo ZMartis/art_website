@@ -7,7 +7,7 @@
 	export let slides: Artwork[]
 
 	let currentIndex = -1
-	let timeoutId: ReturnType<typeof setTimeout> | undefined
+	let timeoutId: number | undefined
 	const intervalMs = 10000
 	const startDelayMs = 500
 
@@ -21,7 +21,7 @@
 
 	function clearScheduledNext() {
 		if (timeoutId) {
-			clearTimeout(timeoutId)
+			window.clearTimeout(timeoutId)
 		}
 	}
 
