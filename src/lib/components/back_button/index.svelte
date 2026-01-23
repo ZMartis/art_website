@@ -12,6 +12,7 @@
 	<div class="backButtonContainer">
 		<div
 			class="backButton"
+			role="presentation"
 			on:mouseenter={() => {
 				textVisible = true
 			}}
@@ -24,6 +25,7 @@
 		{#if textVisible}
 			<div
 				class="hoverBackButton"
+				role="presentation"
 				on:mouseenter={() => {
 					textVisible = true
 				}}

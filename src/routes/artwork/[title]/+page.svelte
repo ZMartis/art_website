@@ -6,7 +6,8 @@
 	import { pixelSorts } from '$lib/data/pixel_sorts'
 	import { stripes } from '$lib/data/stripes'
 	import { find, replace, snakeCase, startCase, toLower, union } from 'lodash-es'
-	import Title from '$lib/components/title/index.svelte'
+import Title from '$lib/components/title/index.svelte'
+import Subtitle from '$lib/components/subtitle/index.svelte'
 	import BaseButton from '$lib/components/base/base_button.svelte'
 	import BackButton from '$lib/components/back_button/index.svelte'
 	import { fade } from 'svelte/transition'
@@ -57,6 +58,9 @@
 		<div class="contentContainer">
 			<h1>
 				<Title {artwork} />
+				{#if artwork.subTitle}
+					<Subtitle text={artwork.subTitle} />
+				{/if}
 			</h1>
 
 			<p>{artwork.medium} - {artwork.sold ? 'Sold' : artwork.price}</p>

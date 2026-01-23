@@ -16,9 +16,11 @@
 	div {
 		display: grid;
 		justify-items: center;
+		align-items: stretch;
 		grid-template-columns: repeat(2, 1fr);
 		grid-gap: 1.5rem 1rem;
 		padding: 1rem;
+		grid-auto-rows: 1fr;
 	}
 	@media (min-width: 768px) {
 		div {
