@@ -14,14 +14,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version-file: '.tool-versions'
-          cache: 'npm'
-
-      - name: Install dependencies
-        run: npm ci
+      - name: Setup Node and dependencies
+        uses: ./.github/actions/setup-node
 
       - name: Run unit tests
         run: npm run test:unit
@@ -33,14 +27,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version-file: '.tool-versions'
-          cache: 'npm'
-
-      - name: Install dependencies
-        run: npm ci
+      - name: Setup Node and dependencies
+        uses: ./.github/actions/setup-node
 
       - name: Install Playwright browsers
         run: npx playwright install --with-deps
